@@ -1,2 +1,32 @@
-# visual-dev-planner
-Model comparisons and prompt refinements for an AI assistant that turns project briefs into one- or two-page visual development plans for beginner developers.
+# Visual Dev Planner
+
+코디세이 본과정 1-1 ‘AI Agent에게 일 제대로 시키는 법 배우기’의 수행 기록입니다.
+
+기획서를 읽고 필수 기능의 우선순위와 개발 순서를 정한 뒤, 개발 초보자가 단계별 할 일·결과물·완료 기준을 이해할 수 있는 1~2장 인포그래픽 개발 계획서를 만드는 AI 도우미를 주제로 합니다. 결과물은 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)입니다.
+
+## 읽는 순서
+
+| 순서 | 문서 경로·링크 | 한 줄 소개 | 현재 기록 상태 |
+|---|---|---|---|
+| 1 | [docs/model-comparison.md](docs/model-comparison.md) | 공통 입력과 프롬프트, 세 모델의 결과물·평가·점수 초안·선정 이유를 정리합니다. | 모델 비교와 Gemini 자동 모드 선정 기록 |
+| 2 | [docs/system-design.md](docs/system-design.md) | 과업 정의, 페르소나 6요소, 시스템 프롬프트와 검증·개선 과정을 정리합니다. | 과업 정의 기록, 나머지는 작성 전 |
+| 3 | [docs/run-log.md](docs/run-log.md) | 선정 모델에서 수행한 작업별 대화 원문과 반복 실행 결과를 기록합니다. | 기록 양식만 준비 |
+| 4 | [docs/unresolved.md](docs/unresolved.md) | 개선 후에도 남은 과업과 시도한 프롬프트·결과·막힌 이유를 기록합니다. | 기록 양식만 준비 |
+
+## 모델 비교 자료
+
+세 모델에 공통으로 사용한 입력은 영화 티어리스트 ‘미션 1-4’ 기획서입니다. 모델명과 설정은 실제 사용 시 알려진 표기를 기록했으며, Gemini는 자동 모드로 정확한 모델명은 확인되지 않았습니다.
+
+| 구분 | 파일 경로·링크 | 한 줄 소개 |
+|---|---|---|
+| 공통 입력 | [영화티어리스트 기획서 자료.md](<영화티어리스트 기획서 자료.md>) | 영화 티어리스트의 목적·기능·완성 기준이 담긴 입력 원문입니다. |
+| 모델 A 결과 | [클로드개발계획서v1.md](클로드개발계획서v1.md) | Claude 쏘넷 5.5 · 중간에서 받은 개발 계획서 원문입니다. |
+| 모델 B 결과 | [gemini.code_artifact_v1.md](gemini.code_artifact_v1.md) | Gemini 자동 모드에서 받은 개발 계획서 원문입니다. |
+| 모델 C 결과 | [gpt 6.1 sol 개발계획서v1.md](<gpt 6.1 sol 개발계획서v1.md>) | GPT-6.1 Sol에서 받은 개발 계획서 원문입니다. |
+
+## 기록 기준
+
+- 실제 사용한 프롬프트, 모델 응답과 직접 작성한 평가 원문을 보존합니다.
+- AI가 제안한 점수 초안은 직접 작성한 평가와 구분합니다.
+- 아직 실행하지 않았거나 확인하지 못한 항목은 비워 둡니다.
+- 개인정보, API 키, 비밀번호와 계정 이메일은 공개 기록에 포함하지 않습니다.
