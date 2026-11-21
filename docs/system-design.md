@@ -374,15 +374,13 @@ v1에서 표와 화살표로 설명한 형식을 v2에서는 장보기 체크리
 
 **Few-shot v2 실제 결과물**
 
-![영화 티어리스트 개발 계획서 v2 · 장보기 예시를 적용한 5단계 인포그래픽](assets/movie-tierlist-v2.webp)
-
-생성 이미지의 파일명은 `watermarked_img_4549971170223832447.png`이다. [이미지에 적힌 문구 보기](run-log.md#ai-23)
+[docs/assets/movie-tierlist-v2.webp](assets/movie-tierlist-v2.webp)
 
 <br>
 
-### Few-shot 마크다운 결과물
+### Zero-shot 마크다운 결과물
 
-대화창 6 · 5턴에서 보낸 파일 생성 요청
+대화창 6 · 5턴에서 보낸 파일 생성 요청. `Few-shot개발계획서.md`는 요청할 때 지정한 파일명이다.
 
 ```text
 Few-shot개발계획서.md 로 만들어줘
