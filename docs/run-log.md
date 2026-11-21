@@ -1337,7 +1337,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 말투를 차분하고 친절한 존댓말을 쓰고 쉬운 단어로 짧게 말하고, 낯선 개발 용어는 풀어서 설명해줘 .
 
 </td></tr>
-<tr id="dialogue-32"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-32"><th scope="row" align="left" valign="top">🤖 AI: [<strong>⚠️ 문맥 끊김</strong> : 계획서 문구를 쉬운 존댓말로 고쳐 달라고 했는데, 용어 풀이와 요약이 돌아왔어요.]</th><td>
 
 네, 알겠습니다. 차분하고 친절한 존댓말로 쉬운 단어만 골라 짧게 말씀드릴게요. 낯선 개발 용어도 옆에서 쉽게 풀어서 설명해 드릴게요.
 
@@ -1360,8 +1360,6 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr>
 </tbody>
 </table>
-
-> ⚠️ **문맥 끊김** · 계획서 문구를 쉬운 존댓말로 고쳐 달라고 했지만 용어 풀이와 요약이 돌아왔다.
 
 **📎 결과물**
 
@@ -1390,7 +1388,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 이미지 오른쪽에서 완료 기준 문장이 잘려 끝까지 읽을 수 없어
 
 </td></tr>
-<tr id="dialogue-34"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-34"><th scope="row" align="left" valign="top">🤖 AI: [<strong>🛑 환각</strong> : AI는 끝까지 읽을 수 있다고 했지만, 사용자가 확인한 수정 이미지 두 장에는 오타와 깨진 글자가 남아 있었어요.]<br>[<strong>✏️ 오타</strong> : 사용자가 수정 이미지 두 장에서 한글 오타와 깨진 글자를 확인했어요.]</th><td>
 
 죄송합니다. 제가 글자 길이를 계산하지 못해서 중요한 완료 기준 문장이 잘리게 만들었군요.
 
@@ -1407,8 +1405,6 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr>
 </tbody>
 </table>
-
-> ⚠️ **환각** · AI는 문장을 끝까지 읽을 수 있다고 답했다. 사용자는 수정 이미지 두 장에 오타와 깨진 글자가 남아 있다고 확인했다.
 
 **📎 결과물**
 
@@ -1650,7 +1646,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
   지금 정리한 개발 계획을 한 장짜리 인포그래픽 이미지로 만들어줘 .맨 위에는 가장 중요한 기능과 가장 먼저 만들 기능을 이유와 함께 한 문장씩 써줘. 그 아래에는 1~5단계를 아이콘과 화살표로 가로로 연결하고, 바로 밑에 같은 순서로 ‘단계와 제목 | 할 일 | 결과물 | ✅ 완료 기준’ 표를 넣어줘. 완료 기준은 내가 무엇을 해 보고 어떤 결과를 확인하면 되는지 짧게 써줘. 같은 내용은 한 번만 보여줘. 
 
 </td></tr>
-<tr id="dialogue-44"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-44"><th scope="row" align="left" valign="top">🤖 AI: [<strong>⚠️ 문맥 끊김</strong> : 사용자가 표를 4열로 지정했는데, 다음 이미지에 열이 추가됐어요.]<br><strong>[🛑 환각</strong> : 이미지에는 “중복된 카드가 목록에 들어감”이라고 적혔어요. 기획서에서는 같은 영화를 다시 추가해도 카드 수가 늘지 않아요.]</th><td>
 
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
@@ -1658,10 +1654,6 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr>
 </tbody>
 </table>
-
-> **⚠️ 문맥 끊김 · 8턴 이미지**　7턴에서 지정한 4열 조건이 유지되지 않았다. 사용자가 9턴에서 추가된 열을 직접 지목했다.
->
-> **⚠️ 환각 · 같은 이미지**　사용자는 9턴에서 이미지의 “중복된 카드가 목록에 들어감”이 기획서와 반대라고 짚었다. 기획서의 동작은 같은 영화를 다시 추가해도 카드 수가 늘지 않고 안내가 뜨는 것이다.
 
 **📎 결과물**
 
@@ -1862,7 +1854,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
  첨부한 장보기 체크리스트는 내가 원하는 형식의 예시야. 위쪽의 가로 로드맵과 아래쪽의 단계별 카드 배치, 글자 크기를 참고해서 영화 티어리스트 개발 계획서를 한 장으로 만들어줘. 각 카드에서 할 일은 내가 만들 기능으로, ✅ 완료 기준은 직접 해 볼 동작과 화면에서 확인할 결과로 써줘. 
 
 </td></tr>
-<tr id="dialogue-54"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-54"><th scope="row" align="left" valign="top">🤖 AI: [<strong>✏️ 오타</strong> : 3단계 완료 기준에서 ‘누르면 하면 화면에서’는 ‘누르면 화면에서’로 고쳐야 해요.]</th><td>
 
 
 가족같이 친근하고 직관적인 스타일의 예시 형식을 참고해서, 영화 티어리스트에 꼭 맞는 1장짜리 개발 계획서를 제작해 보았어요!
@@ -1948,7 +1940,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 이번에는 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
 </td></tr>
-<tr id="dialogue-58"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-58"><th scope="row" align="left" valign="top">🤖 AI: [<strong>🛑 환각</strong> : 사용자가 확인한 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었는데, AI는 ‘하면’을 빼고 인용했어요.]</th><td>
 
 
 방금 생성된 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 살펴보았어요.
@@ -1965,9 +1957,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </tbody>
 </table>
 
-> ⚠️ **환각** · 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있는데, 답변은 ‘하면’을 빼고 인용했다. 24턴에서도 같은 결과가 나왔다.
-
 ---
+
+<a id="3단계-이미지-오타-재검증"></a>
 
 ## 📝 [작업기록 34] 3단계 오타 재확인
 
@@ -1991,7 +1983,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
 </td></tr>
-<tr id="dialogue-60"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-60"><th scope="row" align="left" valign="top">🤖 AI: [<strong>🛑 환각</strong> : 24턴 재확인에서도 22턴과 똑같이 ‘하면’을 빼고 이미지 원문이라고 답했어요. 시스템 설계 문서의 판정은 Fail이에요.]</th><td>
 
 
 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 다시 꼼꼼히 살펴보았어요.
@@ -2009,10 +2001,6 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr>
 </tbody>
 </table>
-
-<a id="3단계-이미지-오타-재검증"></a>
-
-> **⚠️ 환각 · 22턴 첫 확인과 24턴 재검증**　시스템 설계 문서 9절에 기록된 사용자 확인에 따르면 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었다. 두 답변 모두 ‘하면’을 뺀 문장을 이미지 원문으로 제시했다. 설계 문서에 기록된 판정은 Fail이다.
 
 ---
 
@@ -2201,7 +2189,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 “기획서에 완성 기준이 비어 있어요. 개발 계획서의 ‘✅ 완료 기준’ 칸에 ‘확인 필요’라고 표시할까요, 아니면 직접 해 볼 동작과 기대하는 결과를 알려주실래요?”
 
 </td></tr>
-<tr id="dialogue-64"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
+<tr id="dialogue-64"><th scope="row" align="left" valign="top">🤖 AI: [<strong>✏️ 오타</strong> : 이미지 제목의 ‘영화 회 티어리스트 개발 계획서’에서 ‘회’를 빼야 해요.]</th><td>
 
 
 *(생성된 이미지: `watermarked_img_4549971170223832447.png`)*
