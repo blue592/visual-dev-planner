@@ -11,7 +11,7 @@
 | **시각** | 2026년 11월 20일 15:08 · 공유 화면 표시 |
 | **대화원문** | [요청과 답변](#dialogue-01) |
 
-📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
+📎 [첨부한 영화 티어리스트 기획서](../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 [모델별 점수와 선정 이유](model-comparison.md)
 
@@ -37,7 +37,7 @@
 
 가장 먼저 Step 1(HTML/CSS 뼈대 코드)부터 함께 만들어 볼까요?
 
-> 이 답변에서 생성한 결과물 · [영화 티어리스트 개발 계획서](../gemini.code_artifact_v1.md)
+> 이 답변에서 생성한 결과물 · [영화 티어리스트 개발 계획서](../자료/gemini.code_artifact_v1.md)
 
 </td></tr>
 </tbody>
@@ -49,7 +49,7 @@
 |---|---|
 | [Gemini · 자동 모드](#dialogue-01) | 첫 요청과 답변, 생성한 계획서 |
 
-[<img src="assets/zero-shot-result-capture.png" width="220" alt="첫 개발 계획서 전문">](../gemini.code_artifact_v1.md)<br>[첫 개발 계획서 전문](../gemini.code_artifact_v1.md)
+[<img src="assets/zero-shot-result-capture.png" width="220" alt="첫 개발 계획서 전문">](../자료/gemini.code_artifact_v1.md)<br>[첫 개발 계획서 전문](../자료/gemini.code_artifact_v1.md)
 
 ---
 
@@ -96,7 +96,7 @@
 |---|---|
 | [GPT-6.1 Sol](#compare-gpt) | 요청과 답변, 생성한 계획서 |
 
-[<img src="assets/comparison-gpt-preview.png" width="220" alt="개발계획서 첫 부분 미리보기">](../gpt%206.1%20sol%20%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)<br>[개발계획서 전문](../gpt%206.1%20sol%20%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)
+[<img src="assets/comparison-gpt-preview.png" width="220" alt="개발계획서 첫 부분 미리보기">](../자료/gpt%206.1%20sol%20%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)<br>[개발계획서 전문](../자료/gpt%206.1%20sol%20%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)
 
 ---
 
@@ -151,7 +151,7 @@
 |---|---|
 | [Claude 쏘넷 5.5 · 중간](#compare-claude) | 공통 요청, 보관된 추가 답변, 생성한 계획서 |
 
-[<img src="assets/comparison-claude-preview.png" width="220" alt="개발계획서 첫 부분 미리보기">](../%ED%81%B4%EB%A1%9C%EB%93%9C%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)<br>[개발계획서 전문](../%ED%81%B4%EB%A1%9C%EB%93%9C%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)
+[<img src="assets/comparison-claude-preview.png" width="220" alt="개발계획서 첫 부분 미리보기">](../자료/%ED%81%B4%EB%A1%9C%EB%93%9C%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)<br>[개발계획서 전문](../자료/%ED%81%B4%EB%A1%9C%EB%93%9C%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv1.md)
 
 ## 대화창 2 · 초보자를 위한 개발 순서 길잡이
 
@@ -251,7 +251,7 @@
 | **시각** | 2026년 11월 20일 18:47 · 결과물 표시 18:49 · 대화창 기준 |
 | **대화원문** | [대화 원문 보기](#dialogue-05) |
 
-📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
+📎 [첨부한 영화 티어리스트 기획서](../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
@@ -295,7 +295,7 @@
 
 혹시 이 계획서를 바탕으로 **1단계(화면 뼈대와 초기 영화 10편) 코드**부터 바로 만들어 볼까요, 아니면 단계나 우선순위를 조금 조정해 드릴까요?
 
-> 결과물 · [영화 티어리스트 인포그래픽 개발 계획서](<../%5B페르소나%5D제미나이%20code_artifact.md>)
+> 결과물 · [영화 티어리스트 인포그래픽 개발 계획서](<../자료/%5B페르소나%5D제미나이%20code_artifact.md>)
 
 </td></tr>
 </tbody>
@@ -303,7 +303,7 @@
 
 **📎 결과물**
 
-[<img src="assets/log-document-1.png" width="220" alt="페르소나 적용 계획서 전문">](../%5B%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98%5D%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4%20code_artifact.md)<br>[페르소나 적용 계획서 전문](../%5B%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98%5D%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4%20code_artifact.md)
+[<img src="assets/log-document-1.png" width="220" alt="페르소나 적용 계획서 전문">](../자료/%5B%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98%5D%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4%20code_artifact.md)<br>[페르소나 적용 계획서 전문](../자료/%5B%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98%5D%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4%20code_artifact.md)
 
 ---
 
@@ -423,7 +423,7 @@
 
 다음으로 **1단계(화면 뼈대와 초기 영화 10편 드래그 기능)** 코드를 바로 만들어 드릴까요?
 
-> 결과물 · [개발계획서 v2](../개발계획서v2.md)
+> 결과물 · [개발계획서 v2](../자료/개발계획서v2.md)
 
 </td></tr>
 </tbody>
@@ -431,7 +431,7 @@
 
 **📎 결과물**
 
-[<img src="assets/log-document-2.png" width="220" alt="개발 계획서 v2 전문">](../%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv2.md)<br>[개발 계획서 v2 전문](../%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv2.md)
+[<img src="assets/log-document-2.png" width="220" alt="개발 계획서 v2 전문">](../자료/%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv2.md)<br>[개발 계획서 v2 전문](../자료/%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9Cv2.md)
 
 ---
 
@@ -473,7 +473,7 @@
 
 바로 1단계(영화 카드 옮기기) 코드부터 만들어 볼까요?
 
-> 결과물 · [개발계획서 v3](../v3.md)
+> 결과물 · [개발계획서 v3](../자료/v3.md)
 
 </td></tr>
 </tbody>
@@ -481,7 +481,7 @@
 
 **📎 결과물**
 
-[<img src="assets/log-document-3.png" width="220" alt="개발 계획서 v3 전문">](../v3.md)<br>[개발 계획서 v3 전문](../v3.md)
+[<img src="assets/log-document-3.png" width="220" alt="개발 계획서 v3 전문">](../자료/v3.md)<br>[개발 계획서 v3 전문](../자료/v3.md)
 
 ---
 
@@ -782,7 +782,7 @@
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
 | **대화원문** | [대화 원문 보기](#dialogue-25) |
 
-📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
+📎 [첨부한 영화 티어리스트 기획서](../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
@@ -1310,11 +1310,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **📎 결과물**
 
-[<img src="assets/log-document-6.png" width="220" alt="첫 번째 대화 기록 파일">](../code_artifact%20%281%29.md)<br>[첫 번째 대화 기록 파일](../code_artifact%20%281%29.md)
+[<img src="assets/log-document-6.png" width="220" alt="첫 번째 대화 기록 파일">](../자료/code_artifact%20%281%29.md)<br>[첫 번째 대화 기록 파일](../자료/code_artifact%20%281%29.md)
 
 **📎 결과물**
 
-[<img src="assets/log-document-7.png" width="220" alt="실행 시점을 포함한 대화 기록 파일">](../code_artifact%20%282%29.md)<br>[실행 시점을 포함한 대화 기록 파일](../code_artifact%20%282%29.md)
+[<img src="assets/log-document-7.png" width="220" alt="실행 시점을 포함한 대화 기록 파일">](../자료/code_artifact%20%282%29.md)<br>[실행 시점을 포함한 대화 기록 파일](../자료/code_artifact%20%282%29.md)
 
 ## 대화창 3 · 개발 순서 길잡이 준비 완료
 
@@ -1375,7 +1375,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
 | **대화원문** | [대화 원문 보기](#dialogue-39) |
 
-📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
+📎 [첨부한 영화 티어리스트 기획서](../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
@@ -1960,7 +1960,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **📄 함께 기록한 대화 파일**
 
-[3단계 오타를 두 번 확인한 대화 전문](../code_artifact%20%285%29.md) · [이미지 수정 요청을 반복한 대화 기록](../code_artifact%20%284%29.md)
+[3단계 오타를 두 번 확인한 대화 전문](../자료/code_artifact%20%285%29.md) · [이미지 수정 요청을 반복한 대화 기록](../자료/code_artifact%20%284%29.md)
 
 ## 대화창 4 · 장보기 예시를 적용한 인포그래픽과 수정 요청
 
@@ -1981,7 +1981,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
 | **대화원문** | [대화 원문 보기](#dialogue-63) |
 
-📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
+📎 [첨부한 영화 티어리스트 기획서](../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
@@ -2211,7 +2211,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **📎 결과물**
 
-[<img src="assets/log-document-5.png" width="220" alt="저장한 대화 원문">](../code_artifact.md)<br>[저장한 대화 원문](../code_artifact.md)
+[<img src="assets/log-document-5.png" width="220" alt="저장한 대화 원문">](../자료/code_artifact.md)<br>[저장한 대화 원문](../자료/code_artifact.md)
 
 ## 대화창 6 · 개발 순서 길잡이와 Few-shot 개발 계획서 파일 요청
 
@@ -2334,7 +2334,7 @@ PNG 내려받기는 티어표를 이미지로 꺼내 쓰고 싶을 때 추가해
 | **시각** | 2026년 11월 21일 13:55 · 대화창 기준 |
 | **대화원문** | [대화 원문 보기](#dialogue-72) |
 
-📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
+📎 [첨부한 영화 티어리스트 기획서](../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
@@ -2611,7 +2611,7 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 **📎 결과물**
 
-[<img src="assets/log-document-4.png" width="220" alt="Few-shot 개발 계획서 전문">](../Few-shot%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C.md)<br>[Few-shot 개발 계획서 전문](../Few-shot%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C.md)
+[<img src="assets/log-document-4.png" width="220" alt="Few-shot 개발 계획서 전문">](../자료/Few-shot%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C.md)<br>[Few-shot 개발 계획서 전문](../자료/Few-shot%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C.md)
 
 ---
 
@@ -2641,4 +2641,4 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 **📎 결과물**
 
-[<img src="assets/log-document-8.png" width="220" alt="실행 시점을 포함한 대화 기록 파일">](../code_artifact%20%283%29.md)<br>[실행 시점을 포함한 대화 기록 파일](../code_artifact%20%283%29.md)
+[<img src="assets/log-document-8.png" width="220" alt="실행 시점을 포함한 대화 기록 파일">](../자료/code_artifact%20%283%29.md)<br>[실행 시점을 포함한 대화 기록 파일](../자료/code_artifact%20%283%29.md)
