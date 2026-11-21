@@ -17,20 +17,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-01">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-01"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(개발계획서.md)로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-02"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-02">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 첨부해주신 기획서를 바탕으로, 개발 초보자도 한눈에 보고 따라 할 수 있는 인포그래픽 스타일의 개발 계획서(`개발계획서.md`)를 작성하겠습니다.
 
@@ -42,7 +39,9 @@
 
 > 이 답변에서 생성한 결과물 · [영화 티어리스트 개발 계획서](../gemini.code_artifact_v1.md)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -74,22 +73,22 @@
 <a id="comparison-dialogue-2"></a>
 
 <table>
-<tr><td bgcolor="#FFFFFF">
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-<table>
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 원문을 바탕으로 **필수 기능·우선순위·6단계 개발 순서**를 정리하고, 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 담았습니다.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -119,20 +118,16 @@
 <a id="comparison-dialogue-3"></a>
 
 <table>
-<tr><td bgcolor="#FFFFFF">
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr><th scope="row" align="left" valign="top">🤖 AI:<br>보관된 추가 답변</th><td>
 
-**💬 보고서에 보관된 추가 답변**
-
-<table>
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 기획서에서 애매한 점도 세 가지 표시해 두었습니다.
 
@@ -146,7 +141,9 @@
 - 키가 없으면 제목 카드를 보여 주고, 키를 저장한 뒤 포스터를 채웁니다.
 - 앱은 HTML 1장으로 만들고, 인터넷은 TMDB 포스터와 PNG 저장에만 씁니다.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -177,20 +174,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-03">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-03"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 내가 기획서를 주면 먼저 ‘목적’을 읽고, 그 목적을 이루는 데 꼭 필요한 기능을 골라줘. 어떤 기능이 가장 중요한지와 무엇부터 만들어야 하는지를 구분해서 알려줘. 전체 개발 순서는 화살표로 보여주고, 단계마다 ‘할 일 | 결과물 | 완료 기준’을 표로 정리해줘. 완료 기준은 내가 직접 해 보고 다음 단계로 넘어가도 되는지 판단할 수 있게 써줘. 전체를 쉬운 말로 쓴 1~2장짜리 인포그래픽 개발 계획서로 만들어줘. 기획서의 목적이 애매하면 먼저 나에게 물어봐.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-04"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-04">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 좋아요! 개발 초보자를 위한 **‘개발 순서 길잡이’** 역할을 맡았습니다.
 
@@ -240,7 +234,9 @@
 
 이제 기획서(또는 만들고 싶은 서비스 설명)를 편하게 붙여넣어 주세요! 목적이 명확하면 바로 개발 계획서로 만들어 드리고, 애매한 부분이 있으면 딱 필요한 것만 먼저 여쭤볼게요.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -259,20 +255,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-05">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-05"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-06"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-06">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 기획서를 꼼꼼히 읽어보았습니다! ‘개인이 본 영화를 검색해 포스터와 함께 S\~D 5단계 피라미드 티어로 분류·관리하는 단일 HTML 웹 앱’이라는 목적이 아주 명확하네요. (기획서 맨 아래 책갈피 등 부가 아이디어까지 포함해, 핵심 목적을 가장 빠르게 달성하는 순서로 우선순위를 정리했습니다.)
 
@@ -304,7 +297,9 @@
 
 > 결과물 · [영화 티어리스트 인포그래픽 개발 계획서](<../%5B페르소나%5D제미나이%20code_artifact.md>)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -325,20 +320,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-07">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-07"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 기획서 원문의 ‘완성 기준’에서 책갈피와 관련된 항목을 찾아 번호와 문장을 그대로 보여줘. 그 내용을 근거로 책갈피를 왜 ‘부가 아이디어’라고 설명했는지 알려줘. 책갈피가 완성에 꼭 필요한지와 몇 단계에서 개발하면 좋은지를 따로 답해줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-08"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-08">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 기획서 원문의 ‘5. 완성 기준’에서 책갈피와 관련된 항목은 다음과 같습니다.
 
@@ -377,7 +369,9 @@
 
 **가장 마지막 단계(5단계)에서 개발하는 것이 좋습니다.** 먼저 1~4단계에서 화면 뼈대, 영화 검색·드래그 분류, 저장·불러오기·이미지 저장, 반응형 화면까지 안정적으로 돌아가게 만든 뒤, 마지막 5단계에서 책갈피 생성·독립 관리와 현재/전체 페이지 저장 옵션을 얹는 순서가 초보자에게 가장 안전합니다.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -411,20 +405,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-09">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-09"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 방금 확인한 내용을 개발계획서에 반영해줘. 책갈피는 5단계에 두고, ‘선택 확장’을 ‘최종 완성에 필요한 기능’으로 고쳐줘. 5단계 완료 기준에는 내가 직접 해 볼 수 있는 두 가지 확인 방법을 적어줘. ① 책갈피 두 개를 만들고 한쪽에서 영화 등급을 바꿔도 다른 쪽 배치가 그대로인지 확인하기 ② 파일 저장을 누르면 현재 페이지만 저장할지 전체 페이지를 저장할지 선택할 수 있는지 확인하기. 수정한 계획서를 개발계획서_v2.md로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-10"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-10">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 방금 나눈 내용을 반영해 **5단계에 책갈피 기능을 배치**하고, 성격 표기를 ‘최종 완성에 필요한 기능’으로 수정했으며, **직접 확인해 볼 수 있는 두 가지 완료 기준**을 넣어 **`개발계획서_v2.md`** 파일을 생성하겠습니다.
 
@@ -434,7 +425,9 @@
 
 > 결과물 · [개발계획서 v2](../개발계획서v2.md)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -455,10 +448,11 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-11">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-11"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 방금 만든 개발계획서_v2.md는 설명이 길고 표 한 칸에 내용이 많아서, 내가 무엇부터 만들고 언제 다음 단계로 넘어가야 할지 찾기 어려웠어. 아래 구성으로 개발계획서_v3.md를 만들어줘.
 
@@ -469,13 +463,9 @@
 
 기획서의 필수 조건을 유지하면서 같은 설명은 한 번만 적어줘. 전체를 1\~2장 분량으로 정리하고, 다운로드할 수 있는 마크다운 파일 개발계획서_v3.md로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-12"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-12">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 중복 설명을 모두 덜어내고, 한눈에 보고 바로 실행할 수 있도록 4가지 구성에 맞춰 개발계획서_v3.md 파일을 생성하겠습니다.
 
@@ -485,7 +475,9 @@
 
 > 결과물 · [개발계획서 v3](../v3.md)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -506,20 +498,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-13">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-13"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 영화 10편 중 9편은 포스터가 뜨고, 1편은 포스터를 못 불러와 제목만 적힌 회색 카드가 떴어. 기획서대로라면 이 경우도 통과야? 어느 문장을 보고 판단했어?
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-14"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-14">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 네, **기획서대로라면 그 경우도 통과**입니다.
 
@@ -535,7 +524,9 @@
 
 즉, 포스터를 못 불러왔을 때 앱이 멈추거나 빈칸으로 깨지는 것이 아니라 제목이 적힌 회색 기본 카드로 대신 보여주는 것 자체가 기획서에 정의된 정상 동작(예외 처리)이기 때문에 통과로 볼 수 있습니다. (나중에 설정에서 유효한 TMDB API 키를 저장하면 포스터가 없는 기본 목록 영화도 자동으로 포스터를 채우게 되어 있습니다.)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -552,20 +543,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-15">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-15"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 ‘기생충’을 S등급에 놓고 새로고침했더니 그대로 남아 있어. 이것만 보면 기획서의 저장 완료 기준을 통과한 거야? 기획서 문장을 근거로 알려줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-16"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-16">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 **‘기생충’이 S등급에 그대로 남은 것만 보면, 기획서의 저장 관련 기준 중 일부(자동 저장 유지)는 확인되었지만 ‘저장 완료 기준’ 전체를 통과했다고 보기는 어렵습니다.** 기획서에는 자동 저장 외에도 파일 저장/불러오기나 책갈피 저장 등 여러 저장 기준이 함께 적혀 있기 때문입니다.
 
@@ -586,7 +574,9 @@
 
 따라서 새로고침 후 ‘기생충’이 S등급에 남아 있는 현상은 3번 기준의 일부(같은 브라우저에서 다시 열었을 때 영화와 등급이 남는 동작)를 확인하는 데는 긍정적인 신호입니다. 다만 기획서의 저장 기준을 온전히 통과했는지 판단하려면 **같은 파일을 닫았다가 다시 열어도 유지되는지**, 그리고 JSON 파일 저장·불러오기(5번)와 책갈피 파일 저장 범위 선택(10번)까지 직접 해보고 확인해야 합니다.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -603,20 +593,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-17">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-17"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 이 앱에서 책갈피는 최대 몇 개까지 만들 수 있어? 기획서에서 확인할 수 있어?
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-18"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-18">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 **아니요, 기획서에서는 책갈피를 최대 몇 개까지 만들 수 있는지 확인할 수 없습니다.** 기획서에는 최대 개수 제한이나 숫자 기준이 적혀 있지 않습니다.  &#x20;
 
@@ -631,7 +618,9 @@
 
 따라서 ‘여러 개’를 만들 수 있다는 점은 알 수 있지만, 최대 몇 개까지 허용되는지는 기획서에 명시되어 있지 않습니다. 개발할 때 별도 제한을 두지 않을지, 혹은 초보자 화면이 복잡해지지 않도록 적당한 상한선(예: 10개나 20개 등)을 정할지는 직접 결정하거나 기획자에 확인해야 하는 부분입니다.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -648,20 +637,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-19">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-19"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 ‘기생충’은 S등급에 넣고 ‘조커’는 위쪽 영화 목록에 그대로 뒀어. [이미지저장]을 누르면 PNG에 두 영화가 다 나와? 기획서의 어느 문장을 보고 판단했어?
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-20"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-20">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 **아니요, PNG에는 ‘기생충’만 나올 가능성이 크고 위쪽 영화 목록에 그대로 둔 ‘조커’는 포함되지 않습니다.**
 
@@ -677,7 +663,9 @@
 
 따라서 S등급 티어리스트 영역에 들어간 ‘기생충’은 저장 대상에 포함되지만, 위쪽 ‘추가한 영화 목록’에 남아 있는 ‘조커’는 PNG 저장 범위에서 빠집니다. 또 기생충의 포스터가 웹 보안 정책 때문에 PNG에 담기지 못하면 제목 카드 형태로 저장될 수 있으며, 이미지 저장 자체도 인터넷 연결이 필요합니다.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ## 보조 검토 · 영화 티어리스트 인포그래픽과 기획서 대조
 
@@ -699,20 +687,17 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-21">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-21"><th scope="row" align="left" valign="top">👤 User: · 보조 검토 1턴</th><td>
 
-### **⬜ 👤 User:** · 보조 검토 1턴
 
 다른점또는 없는걸썼거나 개발단계가 이상하거나 , 이상한점찾아줘
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-22"><th scope="row" align="left" valign="top">🤖 AI: · 보조 검토 2턴</th><td>
 
-
-<table id="dialogue-22">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:** · 보조 검토 2턴
 
 가장 뚜렷한 문제는 **③단계에서 책갈피를 ‘상단 탭’으로 만든다고 정한 것**이에요. 기획서에는 책갈피마다 영화 배치를 따로 관리한다고만 적혀 있어요. 화면 어디에 놓고 어떻게 전환할지는 정해지지 않았어요. 도영님이 요청한 방식이라면 이 부분은 먼저 되물었어야 해요.
 
@@ -729,7 +714,9 @@
 
 참고로 **TMDB API 키(v3), 여러 책갈피, 현재·전체 페이지 저장은 모두 이번 기획서에 있는 내용**이에요. 가장 먼저 고칠 곳은 ③의 ‘상단 탭’ 단정과 ①의 ‘첫 등급 배정’ 확인 누락이에요. [비교에 사용한 영화 티어리스트 기획서 원문](https://chatgpt.com/library?file_id=libfile_fde3_f-fc861cb08098819186e43e2da30e9f34_2f5319a532bc8191b8258f769fbaf773&account_id=personal)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ### 보조 검토 정정 · 대화창 5 원문 대조
 
@@ -756,19 +743,16 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-23">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-23"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 너의 전문 분야는 소프트웨어 개발 계획 수립과 인포그래픽 시각화야. 내가 기획서를 주면 먼저 목적을 읽고, 그 목적을 이루는 데 꼭 필요한 기능을 골라줘. 가장 중요한 기능과 가장 먼저 만들 기능을 각각 짚고, 그 이유를 쉬운 말로 한 문장씩 설명해줘. 전체 개발 순서는 가로모양으로 아이콘과 화살표로 구분하고 인포그래픽으로 보여주고, 각 단계는 ‘단계 , 제목 :할일,  결과물 , 체크표시 완료 기준’을  인포그래픽 으로 정리해줘. ‘할 일’은 내가 무엇을 만들어야 하는지, ‘결과물’은 만들고 나면 무엇이 생기는지, ‘완료 기준’은 내가 어떤 동작을 해 보고 무엇을 확인하면 되는지로 써줘. 기획서의 목적이 모호하거나 완료 기준이 빠져 있으면 임의로 채우지 말고, 해당 부분을 짚어 나에게 먼저 물어봐. 확인한 내용을 바탕으로 화살표와 표를 한눈에 볼 수 있는 1~2장 분량의 인포그래픽 개발 계획서로 만들어줘.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-24"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-24">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 좋아요! 이제부터 저는 **소프트웨어 개발 계획 수립과 인포그래픽 시각화**를 전문으로 하는 **‘개발 순서 길잡이’**로서 함께할게요.
 
 기획서를 주시면 아래 순서대로 차근차근 정리해 드릴게요.
@@ -781,7 +765,9 @@
 
 기획서를 붙여 넣어 주시면 바로 시작할게요! 어떤 서비스를 만들고 싶으신가요?
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -800,10 +786,11 @@
 
 **💬 대화 원문**
 
-<table id="dialogue-25">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-25"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 [첨부 파일: 영화티어리스트 기획서 자료.md]
 
 # 📋 영화 티어리스트  기획서
@@ -996,13 +983,9 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 ---
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-26"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-26">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 기획서를 꼼꼼히 읽어보았어요. **본인이 본 영화를 검색해 포스터 카드로 만들고, S~D 피라미드 티어에 배치·관리하며 저장/불러오기/PNG 내보내기를 하는 개인용 영화 티어리스트 웹 도구**를 만드는 것이 핵심 목적이네요.
 
 기획서 안에 **여러 개의 ‘책갈피’ 기능**(9번, 10번 항목)이 후반 완성 기준에 추가되어 있는데, 본문 화면 구성이나 동작 설명에는 책갈피 생성·전환·현재/전체 저장 방식이 구체적으로 적혀 있지 않아요. 또한 각 개발 단계의 **완료 기준**(직접 해 볼 동작과 눈으로 확인할 결과)도 기획서에는 아직 정리되어 있지 않습니다.
@@ -1016,7 +999,9 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 답변 주시면 바로 **핵심 기능과 첫 기능 선정 이유**, **가로 아이콘+화살표 전체 순서**, 그리고 **단계별 인포그래픽 개발 계획서**를 한눈에 보이게 만들어 드릴게요!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -1033,19 +1018,16 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 **💬 대화 원문**
 
-<table id="dialogue-27">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-27"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 상단탭, 꼭넣어야해 , 키 입력 전엔 기본 카드/안내로 두었다가 키 저장 시 자동 채우기/기획서안에 있는내용이야? / 아니 없는예시 만들지않고 단계에해당하는 완료기준을 체크표시하고 적어줘 . 핵심기능 , 개발로드맵 ,단계별계획 이 한장안에 들어와야하고 , 개발로드맵에단계와 아이콘이 단계별계획에 같은 컬러로 들어가면좋겠어 .  
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-28"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-28">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 확인한 내용 중 **“키 입력 전엔 기본 카드/안내로 두었다가 키 저장 시 자동 채우기”**는 기획서에 나온 내용이 맞아요! 기획서 `3-1`과 `3-2`에 *“포스터를 가져오지 못한 영화는 제목이 적힌 기본 카드로 대체한다”* 및 *“키를 저장하면 포스터가 없는 기본 목록 영화도 자동으로 포스터를 채운다”*라고 명시되어 있어요. 그리고 **상단탭**을 꼭 넣기로 확정해 주셨고, 기획서에 없는 임의 예시 없이 **기획서 내 기준만 체크표시(`✅`)**로 연결해 한 장에 담아드릴게요.
 
 ---
@@ -1076,7 +1058,9 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 | 🔵 **4단계**<br>`💾` | **제목 : localStorage 자동 저장 및 JSON 저장/불러오기**<br>**할 일**: 변경 시 `localStorage` 자동 저장(API 키 제외), 책갈피 파일 저장 시 현재 페이지 또는 전체 페이지 저장 선택, JSON 불러오기 시 3단계 안전장치(백업 후 불러오기/그냥 불러오기/취소 → 백업 JSON 저장 → 교체 확인)를 만든다. | 재접속 유지 및 현재/전체 JSON 저장·3단계 안전장치 불러오기가 되는 저장 시스템 | • ✅ 3 같은 브라우저에서 같은 파일을 다시 열어도 영화와 등급이 남습니다.<br>• ✅ 5 파일저장을 하고 불러오기로 다시 불러올 수 있습니다.<br>• ✅ 10 책갈피에서 파일 저장 하기를 실행시 현재 페이지 또는 전체페이지 저장을 선택할 수있다. |
 | 🟣 **5단계**<br>`🖼️` | **제목 : 티어리스트 PNG 저장 및 반응형 마감**<br>**할 일**: 추가한 영화 목록을 제외한 티어리스트 영역을 PNG로 저장하는 기능과 좁은 화면·모바일에서도 오른쪽이 잘리지 않는 반응형 레이아웃을 마무리한다. | 티어리스트 PNG 저장 기능과 좁은 화면에서도 잘림 없이 보이는 최종 단일 HTML 파일 | • ✅ 4 등급이 정해진 영화티어리스트 를 이미지로 저장할 수 있습니다.<br>• ✅ 7 화면 폭이 좁아져도 오른쪽이 잘리지 않고 내용을 볼 수 있습니다. |
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1099,20 +1083,17 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 **💬 대화 원문**
 
-<table id="dialogue-29">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-29"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 예시를줄게 이건 장보기 체크리스트 개발기획서를 보고 만든 장보기 체크리스트 개발 계획서야.  기획서를 주면 예시의 이미지처럼 개발순서로드맵과 개발단계별 실행표가 이런 인포그래픽으로 들어가면 좋을것같아. 
 [첨부 이미지: 장보기_체크리스트_개발계획서.png]
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-30"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-30">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 보내주신 **장보기 체크리스트 개발계획서**와 똑같은 레이아웃·컬러 매칭 스타일로 **영화 티어리스트 개발계획서** 인포그래픽 이미지를 제작했어요!
 
 [생성 이미지: 영화 티어리스트 개발계획서 인포그래픽 (watermarked_img_12410612428490624078.jpg)]
@@ -1174,7 +1155,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 수정하고 싶은 문구나 추가할 기획서가 있다면 언제든 말씀해 주세요!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1195,19 +1178,16 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-31">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-31"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 말투를 차분하고 친절한 존댓말을 쓰고 쉬운 단어로 짧게 말하고, 낯선 개발 용어는 풀어서 설명해줘 .
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-32"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-32">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 네, 알겠습니다. 차분하고 친절한 존댓말로 쉬운 단어만 골라 짧게 말씀드릴게요. 낯선 개발 용어도 옆에서 쉽게 풀어서 설명해 드릴게요.
 
 ### 낯선 용어 쉽게 풀어보기
@@ -1226,7 +1206,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 고치고 싶은 부분이 있으면 편하게 말씀해 주세요.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 > ⚠️ **문맥 끊김** · 계획서 문구를 쉬운 존댓말로 고쳐 달라고 했지만 용어 풀이와 요약이 돌아왔다.
 
@@ -1249,19 +1231,16 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-33">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-33"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 이미지 오른쪽에서 완료 기준 문장이 잘려 끝까지 읽을 수 없어
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-34"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-34">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 죄송합니다. 제가 글자 길이를 계산하지 못해서 중요한 완료 기준 문장이 잘리게 만들었군요.
 
 예시 이미지의 깨끗한 디자인은 그대로 유지하되, 오른쪽 표의 내용이 한 줄에 자연스럽게 들어가고 잘리지 않도록 수정해서 다시 만들었습니다. 이제 **완료 기준** 내용을 끝까지 모두 확인하실 수 있습니다.
@@ -1274,7 +1253,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 [생성 이미지: 영화 티어리스트 개발 계획서 인포그래픽 (watermarked_img_17382863926931422304.png)]
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 > ⚠️ **환각** · AI는 문장을 끝까지 읽을 수 있다고 답했다. 사용자는 수정 이미지 두 장에 오타와 깨진 글자가 남아 있다고 확인했다.
 
@@ -1310,27 +1291,26 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-35">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-35"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-36"><th scope="row" align="left" valign="top">👤 User:</th><td>
+
+지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘.대화 실행시점이언제인지 기록해줘
+
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
 [<img src="assets/log-document-6.png" width="220" alt="첫 번째 대화 기록 파일">](../code_artifact%20%281%29.md)<br>[첫 번째 대화 기록 파일](../code_artifact%20%281%29.md)
-
-
-<table id="dialogue-36">
-<tr><td bgcolor="#FFFFFF">
-
-### **⬜ 👤 User:**
-지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘.대화 실행시점이언제인지 기록해줘
-
-</td></tr></table>
 
 **📎 결과물**
 
@@ -1355,20 +1335,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-37">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-37"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 너의 전문 분야는 소프트웨어 개발 계획 수립과 인포그래픽 시각화야. 내가 기획서를 주면 먼저 목적을 읽고, 그 목적을 이루는 데 꼭 필요한 기능을 골라줘. 가장 중요한 기능과 가장 먼저 만들 기능을 각각 짚고, 그 이유를 쉬운 말로 한 문장씩 설명해줘. 전체 개발 순서는 가로모양으로 아이콘과 화살표로 구분하고 인포그래픽으로 보여주고, 각 단계는 ‘단계 , 제목 :할일,  결과물 , 체크표시 완료 기준’을  인포그래픽 으로 정리해줘. ‘할 일’은 내가 무엇을 만들어야 하는지, ‘결과물’은 만들고 나면 무엇이 생기는지, ‘완료 기준’은 내가 어떤 동작을 해 보고 무엇을 확인하면 되는지로 써줘. 기획서의 목적이 모호하거나 완료 기준이 빠져 있으면 임의로 채우지 말고, 해당 부분을 짚어 나에게 먼저 물어봐. 확인한 내용을 바탕으로 화살표와 표를 한눈에 볼 수 있는 1장 분량의 인포그래픽 개발 계획서로 만들어줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-38"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-38">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 네, 알겠습니다! 차분하고 친절하게 도와드릴게요. 저는 소프트웨어 개발 순서를 잡고, 한눈에 보기 쉽게 인포그래픽 형태로 정리해 드리는 **개발 순서 길잡이**예요.
 
@@ -1381,7 +1358,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 기획서를 편하게 붙여 넣어 주세요. 함께 차근차근 만들어 봐요!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -1400,20 +1379,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-39">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-39"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 > 첨부 파일 · `영화티어리스트 기획서 자료.md`
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-40"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-40">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 기획서를 꼼꼼히 읽어보았어요. 먼저 **확인할 점**을 짚고 여쭤본 뒤, 확인된 내용을 바탕으로 1장 분량의 인포그래픽 개발 계획서를 완성해 드릴게요.
 
@@ -1438,7 +1414,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 위 두 가지 질문에 편하게 답해 주세요!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -1455,20 +1433,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-41">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-41"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  내가 본 영화를 S~D 등급으로 정리하는 게 핵심이고, 책갈피별 관리와 저장도 기획서에 적힌 대로 포함해 줘. 단계별 완료 기준은 기획서의 완성 기준 1~10번을 바탕으로 내가 직접 해 볼 행동과 확인할 결과로 풀어줘. 그럼 무엇부터 만들면 좋을지, 처음 요청한 형식대로 한 장짜리 인포그래픽 개발 계획서로 만들어줄래? 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-42"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-42">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 # 📊 영화 티어리스트 개발 계획서 (1장 요약)
 
@@ -1496,7 +1471,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 1단계 **뼈대·티어 화면**부터 함께 시작해 볼까요? 1단계에서 쓸 초기 영화 10편의 제목이나 노란색 색상 코드를 먼저 점검해 드릴까요?
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -1513,28 +1490,27 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-43">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-43"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
   지금 정리한 개발 계획을 한 장짜리 인포그래픽 이미지로 만들어줘 .맨 위에는 가장 중요한 기능과 가장 먼저 만들 기능을 이유와 함께 한 문장씩 써줘. 그 아래에는 1~5단계를 아이콘과 화살표로 가로로 연결하고, 바로 밑에 같은 순서로 ‘단계와 제목 | 할 일 | 결과물 | ✅ 완료 기준’ 표를 넣어줘. 완료 기준은 내가 무엇을 해 보고 어떤 결과를 확인하면 되는지 짧게 써줘. 같은 내용은 한 번만 보여줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-44"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
+
+[생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
+
+</td></tr>
+</tbody>
+</table>
 
 > **⚠️ 문맥 끊김 · 8턴 이미지**　7턴에서 지정한 4열 조건이 유지되지 않았다. 사용자가 9턴에서 추가된 열을 직접 지목했다.
 >
 > **⚠️ 환각 · 같은 이미지**　사용자는 9턴에서 이미지의 “중복된 카드가 목록에 들어감”이 기획서와 반대라고 짚었다. 기획서의 동작은 같은 영화를 다시 추가해도 카드 수가 늘지 않고 안내가 뜨는 것이다.
-
-<table id="dialogue-44">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
-
-[생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
-
-</td></tr></table>
 
 **📎 결과물**
 
@@ -1555,24 +1531,23 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-45">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-45"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  표를 다시 봐줘. 내가 요청한 건 4열인데, ‘결과물’과 ‘✅ 완료 기준’ 사이에 ‘[4단계] 책갈피 관리’라는 열이 하나 더 생겼어. 그 열에 들어간 ‘직접 해 볼 동작’을 오른쪽의 ‘확인할 결과’와 합쳐서, 각 행의 완료 기준을 한 문장으로 써줘. 그리고 2단계에 적힌 “중복된 카드가 목록에 들어감”은 기획서와 반대야. “이미 추가한 영화를 다시 추가하면 카드 수는 그대로이고 중복 안내가 뜬다”로 고쳐줘. 위쪽의 가로 흐름은 유지하고, 아래 표는 단계와 제목 | 할 일 | 결과물 | ✅ 완료 기준 네 열로 고쳐서 한 장짜리 이미지로 다시 보여줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-46"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-46">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1593,10 +1568,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-47">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-47"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  지금 정리한 영화 티어리스트 개발 계획을 한 장짜리 인포그래픽 이미지로 만들어줘. 맨 위에는 가장 중요한 기능과 가장 먼저 만들 기능을 이유와 함께 한 문장씩 써줘. 
 
@@ -1607,17 +1583,15 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
  하단의 표는 [단계별 실행 순서]로 로드맵과 같은 순서로 한 단계에 한 행씩  만들어줘. 열에는 로드맵의 단계별 순서와 아이콘이있고 , , 내용이 있어. 내용에 첫줄은 굵은글씨로  짧은 단계이름이 있고 , 그아랫줄에 할일이 나오고 , 단계별 내용 마지막줄 마다✅ 완료기준 한줄씩 있어 . 
  각 단계마다 하나의 가로 카드로 만들어줘.  개발 초보자가 위에서 전체 흐름을 보고 아래 표를 한 행씩 따라갈 수 있게 만들어줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-48"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-48">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1638,10 +1612,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-49">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-49"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  | 단계 번호와 아이콘 | 카드 내용 | 
  |---|---| 
@@ -1650,17 +1625,15 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
  왼쪽에는 단계 번호와 아이콘을 넣고, 오른쪽 한 칸에는 예시처럼 단계 이름, 할 일, ✅ 완료 기준을 한 줄씩 써줘. 이 형식으로 로드맵과 같은 순서의 가로 카드 5장을 세로로 쌓아줘. 위 예시는 실제 3단계 카드로 한 번만 넣어줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-50"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-50">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1681,10 +1654,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-51">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-51"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  제목은 영화 티어리스트 개발 계획서로 써줘. 그 아래에 ‘가장 중요한 기능’과 ‘가장 먼저 만들 기능’을 이유와 함께 한 문장씩, 각각 한 번만 넣어줘. 아이콘과 화살표로 연결한 가로 로드맵은 그대로 사용해줘. 
 
@@ -1697,17 +1671,15 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
  ‘왼쪽 칸’과 ‘오른쪽 칸’은 배치를 설명하는 말이니 이미지에서는 생략해줘. 이 예시를 실제 3단계 카드로 쓰고, 나머지 네 단계도 같은 모양으로 만들어줘 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-52"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-52">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1728,22 +1700,19 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-53">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-53"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 > 첨부 이미지 · 장보기 체크리스트 개발 계획서
 
  첨부한 장보기 체크리스트는 내가 원하는 형식의 예시야. 위쪽의 가로 로드맵과 아래쪽의 단계별 카드 배치, 글자 크기를 참고해서 영화 티어리스트 개발 계획서를 한 장으로 만들어줘. 각 카드에서 할 일은 내가 만들 기능으로, ✅ 완료 기준은 직접 해 볼 동작과 화면에서 확인할 결과로 써줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-54"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-54">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 가족같이 친근하고 직관적인 스타일의 예시 형식을 참고해서, 영화 티어리스트에 꼭 맞는 1장짜리 개발 계획서를 제작해 보았어요!
 
@@ -1757,7 +1726,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -1778,20 +1749,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-55">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-55"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
  네가 만든 개발 계획서 5단계에 ‘새로고침’이라고 썼는데, 기획서 원문에도 그 표현이 있어? 완성 기준 3번을 그대로 인용하고, 원문에서 내가 어떤 동작을 해 봐야 한다고 했는지 알려줘. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-56"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-56">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 아니에요, 기획서 원문에는 **‘새로고침’이라는 단어가 없어요.** 제가 완료 기준을 쉽게 풀어서 설명하면서 보탠 말이에요.
 
@@ -1801,7 +1769,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 원문에서 직접 해 봐야 한다고 적은 동작은 ‘같은 브라우저에서 같은 파일을 다시 여는 것’이에요. 브라우저 창이나 탭을 닫았다가 같은 HTML 파일을 다시 열어 보면서, 이전에 정리한 영화와 등급이 그대로 남아 있는지 확인하면 돼요.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -1818,20 +1788,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-57">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-57"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 이번에는 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-58"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-58">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 방금 생성된 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 살펴보았어요.
 
@@ -1843,7 +1810,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 - 할 일: `대기 목록의 카드를 원하는 티어(S~D) 행으로 드래그해 배치하고, 카드를 누르면 등급을 바꾸거나 삭제하는 메뉴를 만들어요.`
 - ✅ 완료 기준: `대기 목록의 영화 카드를 'S' 칸으로 끌어다 놓으면 그 칸에 카드가 들어가고, 카드를 클릭해 [삭제]를 누르면 화면에서 사라져요.`
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 > ⚠️ **환각** · 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있는데, 답변은 ‘하면’을 빼고 인용했다. 24턴에서도 같은 결과가 나왔다.
 
@@ -1862,24 +1831,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-59">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-59"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-60"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<a id="3단계-이미지-오타-재검증"></a>
-
-> **⚠️ 환각 · 22턴 첫 확인과 24턴 재검증**　시스템 설계 문서 9절에 기록된 사용자 확인에 따르면 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었다. 두 답변 모두 ‘하면’을 뺀 문장을 이미지 원문으로 제시했다. 설계 문서에 기록된 판정은 Fail이다.
-
-<table id="dialogue-60">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 다시 꼼꼼히 살펴보았어요.
 
@@ -1893,7 +1855,13 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 - **할 일:** `대기 목록의 카드를 원하는 티어(S~D) 행으로 드래그해 배치하고, 카드를 누르면 등급을 바꾸거나 삭제하는 메뉴를 만들어요.`
 - **✅ 완료 기준:** `대기 목록의 영화 카드를 'S' 칸으로 끌어다 놓으면 그 칸에 카드가 들어가고, 카드를 클릭해 [삭제]를 누르면 화면에서 사라져요.`
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
+
+<a id="3단계-이미지-오타-재검증"></a>
+
+> **⚠️ 환각 · 22턴 첫 확인과 24턴 재검증**　시스템 설계 문서 9절에 기록된 사용자 확인에 따르면 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었다. 두 답변 모두 ‘하면’을 뺀 문장을 이미지 원문으로 제시했다. 설계 문서에 기록된 판정은 Fail이다.
 
 ---
 
@@ -1910,20 +1878,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-61">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-61"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 오타는 수정해주고 책갈피 따로 만들고  저장하기,불러오기 를 합치면 될거같아.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-62"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-62">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 아쉽지만 현재 이미지 생성 할당량이 모두 차서 인포그래픽 이미지를 새로 만들지 못했어요. 할당량이 재설정된 뒤 다시 요청해 주시면 바로 만들어 드릴게요!
 
@@ -1989,7 +1954,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 이 6단계 구성과 완료 기준 중에서 다듬고 싶은 문장이 있으신가요?
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📄 함께 기록한 대화 파일**
 
@@ -2018,10 +1985,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-63">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-63"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 [입력 자료]
 - 프로젝트 이름: 영화 티어리스트
@@ -2081,13 +2049,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 모범 답변:
 “기획서에 완성 기준이 비어 있어요. 개발 계획서의 ‘✅ 완료 기준’ 칸에 ‘확인 필요’라고 표시할까요, 아니면 직접 해 볼 동작과 기대하는 결과를 알려주실래요?”
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-64"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-64">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 *(생성된 이미지: `watermarked_img_4549971170223832447.png`)*
 
@@ -2113,7 +2077,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
     * 할 일: 완성된 티어리스트를 PNG 이미지 파일로 컴퓨터에 저장하는 기능을 만들어요.
     * ✅ 완료 기준: ‘이미지 저장’을 누르면 추가 목록을 제외한 티어리스트가 이미지 파일로 내려받아져요.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -2147,20 +2113,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-65">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-65"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 오타나 기획서의 빠진내용있는지 확인해줘
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-66"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-66">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 생성된 인포그래픽 이미지(`watermarked_img_4549971170223832447.png`)와 기획서 원문(`영화티어리스트 기획서 자료.md`)을 비교해 보니 **오타**와 **기획서에 있지만 빠진 내용**이 보여요. 차분히 짚어 드릴게요!
 
@@ -2178,7 +2141,9 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 ### 어떻게 반영할까요?
 단계가 너무 늘어나면 카드 글씨가 작아질 수 있어요. **오타(`영화 회` → `영화`)를 바로잡고**, 빠진 내용 중 **책갈피 기능과 불러오기 안전장치**를 기존 단계에 합칠지, 아니면 별도 단계로 추가할지 알려주시면 그에 맞춰 다시 정리해 드릴게요!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -2195,24 +2160,23 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-67">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-67"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 오타는 수정해주고 책갈피 따로 만들고  저장하기,불러오기 를 합치면 될거같아. 
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-68"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-68">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 
 한도가 재설정되는 대로 이미지를 더 생성할 수 있습니다. 설정에서 사용량을 확인해 보세요.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 <a id="같은-입력을-두-번-실행한-결과"></a>
 
@@ -2233,14 +2197,17 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-69">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-69"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 
 지금까지 대화를 원문그대로 .md로 만들어주고 대화실행시점도 표시해줘
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -2265,10 +2232,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 **💬 대화 원문**
 
-<table id="dialogue-70">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-70"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 내가 기획서를 주면 먼저 ‘이걸 쓰는 사람이 무엇을 할 수 있어야 하는지’를 한 문장으로 정리해 줘. 목적이 여러 가지로 읽혀서 어떤 기능이 필요한지 달라진다면, 계획서를 쓰기 전에 짧은 질문을 하고 내 답을 기다려 줘.
 
 목적이 분명해지면 기획서에 나온 기능 중 그 목적을 이루는 데 꼭 필요한 기능을 골라 줘. 그중 사용자에게 가장 중요한 기능과 개발할 때 먼저 만들어야 하는 기능을 구분하고, 각각의 이유를 쉬운 말로 한 줄씩 써 줘.
@@ -2342,18 +2310,16 @@ PNG 내려받기는 티어표를 이미지로 꺼내 쓰고 싶을 때 추가해
 ② 준비 완료 표시	준비한 항목에 체크하고, 잘못 누르면 풀 수 있게 해요.	준비 여부가 표시된 목록	‘기획서’를 한 번 누르면 체크되고, 다시 누르면 체크가 풀려요.
 ③ 빠진 항목 보기	체크하지 않은 항목만 모아 보여 줘요.	제출 전에 확인할 남은 항목 목록	‘기획서’만 체크하면 ‘테스트 기록’만 남아요. 둘 다 체크하면 ‘모두 준비했어요’가 보여요.
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-71"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-71">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 알겠습니다! 앞으로 기획서를 주시면 **‘개발 순서 길잡이’**로서 목적 정리, 핵심 기능 선별, 그리고 한눈에 보는 개발 계획서(화살표 순서 + 가로 표)까지 예시 형식에 맞춰 안내해 드릴게요.
 
 기획서나 만들고 싶은 앱·도구의 아이디어를 편하게 보내 주세요. 목적이 모호할 때는 짧은 질문으로 먼저 확인한 뒤 계획서를 정리해 드릴게요!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -2372,10 +2338,11 @@ PNG 내려받기는 티어표를 이미지로 꺼내 쓰고 싶을 때 추가해
 
 **💬 대화 원문**
 
-<table id="dialogue-72">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-72"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 *(첨부 파일: 영화티어리스트 기획서 자료.md)*
 
 # 📋 영화 티어리스트  기획서
@@ -2568,13 +2535,9 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 ---
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-73"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-73">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 목적　내가 본 영화를 S·A·B·C·D 등급으로 나누고 관리하며, 다음에 다시 열어도 그 등급과 배치를 그대로 확인해요.
 꼭 필요한 기능	가장 중요한 기능	먼저 만들 기능
 영화 추가·목록 관리, S·A·B·C·D 등급 배치·변경·삭제, 배치 저장	등급 배치·변경·삭제예요. 영화를 5단계 티어로 나누고 언제든 등급을 바꾸거나 지울 수 있어야 이 앱의 목적을 이루어요.	영화 추가·목록 관리예요. 화면에 영화 카드가 있어야 등급 칸으로 옮기고 배치해 볼 수 있어요.
@@ -2589,7 +2552,9 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여러 책갈피 관리는 기본 티어 분류와 저장이 완성된 뒤에 차례로 붙여 나가면 좋아요.
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -2606,19 +2571,16 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 **💬 대화 원문**
 
-<table id="dialogue-74">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-74"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 Few-shot개발계획서.md 로 만들어줘
 
-</td></tr></table>
+</td></tr>
+<tr id="dialogue-75"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
-
-<table id="dialogue-75">
-<tr><td bgcolor="#EAF3FF">
-
-### **🟦 🤖 AI:**
 영화 티어리스트 기획서를 바탕으로 정리한 개발 계획서를 `Few-shot개발계획서.md` 파일로 생성하겠습니다.
 
 *(생성된 파일: Few-shot개발계획서.md)*
@@ -2643,7 +2605,9 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 `Few-shot개발계획서.md` 파일로 정리를 마쳤어요. 필요에 따라 내용을 수정하거나 추가 기능 단계를 더 붙여 보실 수 있습니다!
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
@@ -2664,13 +2628,16 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 **💬 대화 원문**
 
-<table id="dialogue-76">
-<tr><td bgcolor="#FFFFFF">
+<table>
+<thead><tr><th>화자</th><th>대화 원문</th></tr></thead>
+<tbody>
+<tr id="dialogue-76"><th scope="row" align="left" valign="top">👤 User:</th><td>
 
-### **⬜ 👤 User:**
 지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘.대화 실행시점이언제인지 기록해줘
 
-</td></tr></table>
+</td></tr>
+</tbody>
+</table>
 
 **📎 결과물**
 
