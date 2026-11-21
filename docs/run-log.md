@@ -1,6 +1,6 @@
 # 실행 기록
 
-### 📝 [작업기록 1] 비교용 계획서 요청
+## 📝 [작업기록 1] 비교용 계획서 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -9,7 +9,7 @@
 | **결과** | Gemini가 5단계 계획서를 마크다운 파일로 만들었다. |
 | **프롬프트구분** | 유저 프롬프트 · 텍스트 생성 · Zero-shot |
 | **시각** | 2026년 11월 20일 15:08 · 공유 화면 표시 |
-| **대화원문** | [요청과 답변](#chat-1-turn-1) |
+| **대화원문** | [요청과 답변](#dialogue-01) |
 
 📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
@@ -17,26 +17,20 @@
 
 **💬 대화 원문**
 
-<a id="chat-1-turn-1"></a>
+<table id="dialogue-01">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(개발계획서.md)로 만들어줘.
 
 </td></tr></table>
 
 
-<a id="chat-1-turn-2"></a>
+<table id="dialogue-02">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 첨부해주신 기획서를 바탕으로, 개발 초보자도 한눈에 보고 따라 할 수 있는 인포그래픽 스타일의 개발 계획서(`개발계획서.md`)를 작성하겠습니다.
 
@@ -54,7 +48,7 @@
 
 | 모델 | 실행 로그에서 볼 수 있는 내용 |
 |---|---|
-| [Gemini · 자동 모드](#chat-1-turn-1) | 첫 요청과 답변, 생성한 계획서 |
+| [Gemini · 자동 모드](#dialogue-01) | 첫 요청과 답변, 생성한 계획서 |
 
 [<img src="assets/zero-shot-result-capture.png" width="220" alt="첫 개발 계획서 전문">](../gemini.code_artifact_v1.md)<br>[첫 개발 계획서 전문](../gemini.code_artifact_v1.md)
 
@@ -62,7 +56,9 @@
 
 <a id="compare-gpt"></a>
 
-### 📝 [작업기록 2] GPT · 같은 기획서로 개발계획서 요청
+---
+
+## 📝 [작업기록 2] GPT · 같은 기획서로 개발계획서 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -78,20 +74,18 @@
 <a id="comparison-dialogue-2"></a>
 
 <table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
+<tr><td bgcolor="#FFFFFF">
 
-### **User:**
+### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)로 만들어줘.
 
 </td></tr></table>
 
 <table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
+<tr><td bgcolor="#EAF3FF">
 
-### **AI:**
+### **🟦 🤖 AI:**
 
 원문을 바탕으로 **필수 기능·우선순위·6단계 개발 순서**를 정리하고, 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 담았습니다.
 
@@ -109,7 +103,9 @@
 
 <a id="compare-claude"></a>
 
-### 📝 [작업기록 3] Claude · 같은 기획서로 개발계획서 요청
+---
+
+## 📝 [작업기록 3] Claude · 같은 기획서로 개발계획서 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -123,10 +119,9 @@
 <a id="comparison-dialogue-3"></a>
 
 <table>
-<tr><th align="left">보관된 발화 1</th></tr>
-<tr><td>
+<tr><td bgcolor="#FFFFFF">
 
-### **User:**
+### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)로 만들어줘.
 
@@ -135,10 +130,9 @@
 **💬 보고서에 보관된 추가 답변**
 
 <table>
-<tr><th align="left">보관된 발화 2</th></tr>
-<tr><td>
+<tr><td bgcolor="#EAF3FF">
 
-### **AI:**
+### **🟦 🤖 AI:**
 
 기획서에서 애매한 점도 세 가지 표시해 두었습니다.
 
@@ -170,7 +164,7 @@
 
 ---
 
-### 📝 [작업기록 4] 페르소나 적용
+## 📝 [작업기록 4] 페르소나 적용
 
 | 항목 | 기록 |
 |---|---|
@@ -179,30 +173,24 @@
 | **결과** | Gemini가 역할을 받아들이고 기획서를 읽는 순서와 답변 형식을 설명했다. |
 | **프롬프트구분** | 시스템 프롬프트 · 페르소나 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [1~2턴](#chat-2-turn-1) |
+| **대화원문** | [대화 원문 보기](#dialogue-03) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-1"></a>
+<table id="dialogue-03">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 내가 기획서를 주면 먼저 ‘목적’을 읽고, 그 목적을 이루는 데 꼭 필요한 기능을 골라줘. 어떤 기능이 가장 중요한지와 무엇부터 만들어야 하는지를 구분해서 알려줘. 전체 개발 순서는 화살표로 보여주고, 단계마다 ‘할 일 | 결과물 | 완료 기준’을 표로 정리해줘. 완료 기준은 내가 직접 해 보고 다음 단계로 넘어가도 되는지 판단할 수 있게 써줘. 전체를 쉬운 말로 쓴 1~2장짜리 인포그래픽 개발 계획서로 만들어줘. 기획서의 목적이 애매하면 먼저 나에게 물어봐.
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-2"></a>
+<table id="dialogue-04">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 좋아요! 개발 초보자를 위한 **‘개발 순서 길잡이’** 역할을 맡았습니다.
 
@@ -256,7 +244,7 @@
 
 ---
 
-### 📝 [작업기록 5] 첫 계획서 요청
+## 📝 [작업기록 5] 첫 계획서 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -265,32 +253,26 @@
 | **결과** | 첫 계획서를 받았다. Gemini는 책갈피를 부가 아이디어로 분류했다. |
 | **프롬프트구분** | 유저 프롬프트 · 텍스트 생성 |
 | **시각** | 2026년 11월 20일 18:47 · 결과물 표시 18:49 · 대화창 기준 |
-| **대화원문** | [3~4턴](#chat-2-turn-3) |
+| **대화원문** | [대화 원문 보기](#dialogue-05) |
 
 📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-3"></a>
+<table id="dialogue-05">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">3턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 첨부한 기획서 원문에 적힌 목적을 바탕으로 필수 기능을 골라 우선순위와 개발 순서를 정하고, 개발 초보자가 무엇부터 만들고 언제 다음 단계로 넘어갈지 한눈에 알 수 있도록 단계별 할 일·결과물·완료 기준을 표와 간단한 도식으로 보여주는 1~2장 분량의 인포그래픽 개발 계획서를 쉬운 말로 작성해 다운로드할 수 있는 마크다운 파일(`개발계획서.md`)로 만들어줘.
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-4"></a>
+<table id="dialogue-06">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">4턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 기획서를 꼼꼼히 읽어보았습니다! ‘개인이 본 영화를 검색해 포스터와 함께 S\~D 5단계 피라미드 티어로 분류·관리하는 단일 HTML 웹 앱’이라는 목적이 아주 명확하네요. (기획서 맨 아래 책갈피 등 부가 아이디어까지 포함해, 핵심 목적을 가장 빠르게 달성하는 순서로 우선순위를 정리했습니다.)
 
@@ -330,7 +312,7 @@
 
 ---
 
-### 📝 [작업기록 6] 책갈피의 필수 여부 확인
+## 📝 [작업기록 6] 책갈피의 필수 여부 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -339,30 +321,24 @@
 | **결과** | Gemini가 근거로 완성 기준 9번과 10번을 제시했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [5~6턴](#chat-2-turn-5) |
+| **대화원문** | [대화 원문 보기](#dialogue-07) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-5"></a>
+<table id="dialogue-07">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">5턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 기획서 원문의 ‘완성 기준’에서 책갈피와 관련된 항목을 찾아 번호와 문장을 그대로 보여줘. 그 내용을 근거로 책갈피를 왜 ‘부가 아이디어’라고 설명했는지 알려줘. 책갈피가 완성에 꼭 필요한지와 몇 단계에서 개발하면 좋은지를 따로 답해줘.
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-6"></a>
+<table id="dialogue-08">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">6턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 기획서 원문의 ‘5. 완성 기준’에서 책갈피와 관련된 항목은 다음과 같습니다.
 
@@ -407,7 +383,9 @@
 
 > **조건 변경 · 7턴**　책갈피를 최종 완성에 필요한 기능으로 지정하고 완료 기준 두 가지를 요구했다.
 
-### 📝 [작업기록 7] 책갈피 단계 수정
+---
+
+## 📝 [작업기록 7] 책갈피 단계 수정
 
 | 항목 | 기록 |
 |---|---|
@@ -416,9 +394,11 @@
 | **결과** | v2에서 책갈피가 5단계 필수 기능으로 바뀌었다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [7~8턴 · 조건 변경](#chat-2-turn-7) |
+| **대화원문** | [대화 원문 보기](#dialogue-09) · 조건 변경 |
 
-### 📝 [작업기록 8] 책갈피 완료 기준 추가
+---
+
+## 📝 [작업기록 8] 책갈피 완료 기준 추가
 
 | 항목 | 기록 |
 |---|---|
@@ -427,30 +407,24 @@
 | **결과** | v2에 책갈피별 배치 유지와 저장 범위 선택을 확인하는 기준이 들어갔다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [같은 7~8턴](#chat-2-turn-7) |
+| **대화원문** | [대화 원문 보기](#dialogue-09) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-7"></a>
+<table id="dialogue-09">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">7턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 방금 확인한 내용을 개발계획서에 반영해줘. 책갈피는 5단계에 두고, ‘선택 확장’을 ‘최종 완성에 필요한 기능’으로 고쳐줘. 5단계 완료 기준에는 내가 직접 해 볼 수 있는 두 가지 확인 방법을 적어줘. ① 책갈피 두 개를 만들고 한쪽에서 영화 등급을 바꿔도 다른 쪽 배치가 그대로인지 확인하기 ② 파일 저장을 누르면 현재 페이지만 저장할지 전체 페이지를 저장할지 선택할 수 있는지 확인하기. 수정한 계획서를 개발계획서_v2.md로 만들어줘.
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-8"></a>
+<table id="dialogue-10">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">8턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 방금 나눈 내용을 반영해 **5단계에 책갈피 기능을 배치**하고, 성격 표기를 ‘최종 완성에 필요한 기능’으로 수정했으며, **직접 확인해 볼 수 있는 두 가지 완료 기준**을 넣어 **`개발계획서_v2.md`** 파일을 생성하겠습니다.
 
@@ -468,7 +442,7 @@
 
 ---
 
-### 📝 [작업기록 9] 계획서 v3 요청
+## 📝 [작업기록 9] 계획서 v3 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -477,17 +451,14 @@
 | **결과** | 첫 작업과 다음 단계의 완료 기준을 다시 정리한 v3 파일을 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [9~10턴](#chat-2-turn-9) |
+| **대화원문** | [대화 원문 보기](#dialogue-11) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-9"></a>
+<table id="dialogue-11">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">9턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 방금 만든 개발계획서_v2.md는 설명이 길고 표 한 칸에 내용이 많아서, 내가 무엇부터 만들고 언제 다음 단계로 넘어가야 할지 찾기 어려웠어. 아래 구성으로 개발계획서_v3.md를 만들어줘.
 
@@ -501,13 +472,10 @@
 </td></tr></table>
 
 
-<a id="chat-2-turn-10"></a>
+<table id="dialogue-12">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">10턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 중복 설명을 모두 덜어내고, 한눈에 보고 바로 실행할 수 있도록 4가지 구성에 맞춰 개발계획서_v3.md 파일을 생성하겠습니다.
 
@@ -525,7 +493,7 @@
 
 ---
 
-### 📝 [작업기록 10] 포스터 예외 확인
+## 📝 [작업기록 10] 포스터 예외 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -534,30 +502,24 @@
 | **결과** | Gemini는 포스터를 못 불러오면 기본 제목 카드를 보여도 된다고 답했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [11~12턴](#chat-2-turn-11) |
+| **대화원문** | [대화 원문 보기](#dialogue-13) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-11"></a>
+<table id="dialogue-13">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">11턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 영화 10편 중 9편은 포스터가 뜨고, 1편은 포스터를 못 불러와 제목만 적힌 회색 카드가 떴어. 기획서대로라면 이 경우도 통과야? 어느 문장을 보고 판단했어?
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-12"></a>
+<table id="dialogue-14">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">12턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 네, **기획서대로라면 그 경우도 통과**입니다.
 
@@ -577,7 +539,7 @@
 
 ---
 
-### 📝 [작업기록 11] 저장 완료 기준 확인
+## 📝 [작업기록 11] 저장 완료 기준 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -586,30 +548,24 @@
 | **결과** | Gemini는 새로고침 후 등급 유지만으로는 파일 저장·불러오기까지 확인할 수 없다고 답했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [13~14턴](#chat-2-turn-13) |
+| **대화원문** | [대화 원문 보기](#dialogue-15) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-13"></a>
+<table id="dialogue-15">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">13턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 ‘기생충’을 S등급에 놓고 새로고침했더니 그대로 남아 있어. 이것만 보면 기획서의 저장 완료 기준을 통과한 거야? 기획서 문장을 근거로 알려줘.
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-14"></a>
+<table id="dialogue-16">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">14턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 **‘기생충’이 S등급에 그대로 남은 것만 보면, 기획서의 저장 관련 기준 중 일부(자동 저장 유지)는 확인되었지만 ‘저장 완료 기준’ 전체를 통과했다고 보기는 어렵습니다.** 기획서에는 자동 저장 외에도 파일 저장/불러오기나 책갈피 저장 등 여러 저장 기준이 함께 적혀 있기 때문입니다.
 
@@ -634,7 +590,7 @@
 
 ---
 
-### 📝 [작업기록 12] 책갈피 최대 개수 확인
+## 📝 [작업기록 12] 책갈피 최대 개수 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -643,30 +599,24 @@
 | **결과** | Gemini는 기획서에서 최대 개수를 확인할 수 없다고 답했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [15~16턴](#chat-2-turn-15) |
+| **대화원문** | [대화 원문 보기](#dialogue-17) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-15"></a>
+<table id="dialogue-17">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">15턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 이 앱에서 책갈피는 최대 몇 개까지 만들 수 있어? 기획서에서 확인할 수 있어?
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-16"></a>
+<table id="dialogue-18">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">16턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 **아니요, 기획서에서는 책갈피를 최대 몇 개까지 만들 수 있는지 확인할 수 없습니다.** 기획서에는 최대 개수 제한이나 숫자 기준이 적혀 있지 않습니다.  &#x20;
 
@@ -685,7 +635,7 @@
 
 ---
 
-### 📝 [작업기록 13] PNG 저장 범위 확인
+## 📝 [작업기록 13] PNG 저장 범위 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -694,30 +644,24 @@
 | **결과** | Gemini는 티어에 놓은 ‘기생충’이 저장 대상이고 위쪽 목록의 ‘조커’는 제외된다고 답했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
-| **대화원문** | [17~18턴](#chat-2-turn-17) |
+| **대화원문** | [대화 원문 보기](#dialogue-19) |
 
 **💬 대화 원문**
 
-<a id="chat-2-turn-17"></a>
+<table id="dialogue-19">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">17턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 ‘기생충’은 S등급에 넣고 ‘조커’는 위쪽 영화 목록에 그대로 뒀어. [이미지저장]을 누르면 PNG에 두 영화가 다 나와? 기획서의 어느 문장을 보고 판단했어?
 
 </td></tr></table>
 
 
-<a id="chat-2-turn-18"></a>
+<table id="dialogue-20">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">18턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 **아니요, PNG에는 ‘기생충’만 나올 가능성이 크고 위쪽 영화 목록에 그대로 둔 ‘조커’는 포함되지 않습니다.**
 
@@ -742,7 +686,7 @@
 
 ---
 
-### 📝 [작업기록 14] 이미지와 기획서 대조
+## 📝 [작업기록 14] 이미지와 기획서 대조
 
 | 항목 | 기록 |
 |---|---|
@@ -751,30 +695,24 @@
 | **결과** | ChatGPT가 책갈피 상단 탭 등을 원문과의 차이로 지목했다. 아래 정정 기록에 이후 대화에서 사용자가 확정한 조건을 남겼다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [보조 검토 1~2턴](#chat-aux-turn-1) |
+| **대화원문** | [대화 원문 보기](#dialogue-21) |
 
 **💬 대화 원문**
 
-<a id="chat-aux-turn-1"></a>
+<table id="dialogue-21">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:** · 보조 검토 1턴
+### **⬜ 👤 User:** · 보조 검토 1턴
 
 다른점또는 없는걸썼거나 개발단계가 이상하거나 , 이상한점찾아줘
 
 </td></tr></table>
 
 
-<a id="chat-aux-turn-2"></a>
+<table id="dialogue-22">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:** · 보조 검토 2턴
+### **🟦 🤖 AI:** · 보조 검토 2턴
 
 가장 뚜렷한 문제는 **③단계에서 책갈피를 ‘상단 탭’으로 만든다고 정한 것**이에요. 기획서에는 책갈피마다 영화 배치를 따로 관리한다고만 적혀 있어요. 화면 어디에 놓고 어떻게 전환할지는 정해지지 않았어요. 도영님이 요청한 방식이라면 이 부분은 먼저 되물었어야 해요.
 
@@ -805,7 +743,7 @@
 
 ---
 
-### 📝 [작업기록 15] 페르소나 적용
+## 📝 [작업기록 15] 페르소나 적용
 
 | 항목 | 기록 |
 |---|---|
@@ -814,29 +752,23 @@
 | **결과** | Gemini가 역할과 계획서 작성 순서를 확인했다. |
 | **프롬프트구분** | 시스템 프롬프트 · 페르소나 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [1~2턴](#chat-5-turn-1) |
+| **대화원문** | [대화 원문 보기](#dialogue-23) |
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-1"></a>
+<table id="dialogue-23">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 너의 전문 분야는 소프트웨어 개발 계획 수립과 인포그래픽 시각화야. 내가 기획서를 주면 먼저 목적을 읽고, 그 목적을 이루는 데 꼭 필요한 기능을 골라줘. 가장 중요한 기능과 가장 먼저 만들 기능을 각각 짚고, 그 이유를 쉬운 말로 한 문장씩 설명해줘. 전체 개발 순서는 가로모양으로 아이콘과 화살표로 구분하고 인포그래픽으로 보여주고, 각 단계는 ‘단계 , 제목 :할일,  결과물 , 체크표시 완료 기준’을  인포그래픽 으로 정리해줘. ‘할 일’은 내가 무엇을 만들어야 하는지, ‘결과물’은 만들고 나면 무엇이 생기는지, ‘완료 기준’은 내가 어떤 동작을 해 보고 무엇을 확인하면 되는지로 써줘. 기획서의 목적이 모호하거나 완료 기준이 빠져 있으면 임의로 채우지 말고, 해당 부분을 짚어 나에게 먼저 물어봐. 확인한 내용을 바탕으로 화살표와 표를 한눈에 볼 수 있는 1~2장 분량의 인포그래픽 개발 계획서로 만들어줘.
 
 </td></tr></table>
 
 
-<a id="chat-5-turn-2"></a>
+<table id="dialogue-24">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 좋아요! 이제부터 저는 **소프트웨어 개발 계획 수립과 인포그래픽 시각화**를 전문으로 하는 **‘개발 순서 길잡이’**로서 함께할게요.
 
 기획서를 주시면 아래 순서대로 차근차근 정리해 드릴게요.
@@ -853,7 +785,7 @@
 
 ---
 
-### 📝 [작업기록 16] 기획서 전달
+## 📝 [작업기록 16] 기획서 전달
 
 | 항목 | 기록 |
 |---|---|
@@ -862,19 +794,16 @@
 | **결과** | 책갈피의 화면 구성과 초기 포스터 처리 등에 관한 확인 질문을 받았다. |
 | **프롬프트구분** | 유저 입력 · 기획서 첨부 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [3~4턴](#chat-5-turn-3) |
+| **대화원문** | [대화 원문 보기](#dialogue-25) |
 
 📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-3"></a>
+<table id="dialogue-25">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">3턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 [첨부 파일: 영화티어리스트 기획서 자료.md]
 
 # 📋 영화 티어리스트  기획서
@@ -1070,13 +999,10 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 </td></tr></table>
 
 
-<a id="chat-5-turn-4"></a>
+<table id="dialogue-26">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">4턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 기획서를 꼼꼼히 읽어보았어요. **본인이 본 영화를 검색해 포스터 카드로 만들고, S~D 피라미드 티어에 배치·관리하며 저장/불러오기/PNG 내보내기를 하는 개인용 영화 티어리스트 웹 도구**를 만드는 것이 핵심 목적이네요.
 
 기획서 안에 **여러 개의 ‘책갈피’ 기능**(9번, 10번 항목)이 후반 완성 기준에 추가되어 있는데, 본문 화면 구성이나 동작 설명에는 책갈피 생성·전환·현재/전체 저장 방식이 구체적으로 적혀 있지 않아요. 또한 각 개발 단계의 **완료 기준**(직접 해 볼 동작과 눈으로 확인할 결과)도 기획서에는 아직 정리되어 있지 않습니다.
@@ -1094,7 +1020,7 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 ---
 
-### 📝 [작업기록 17] 요구사항 보충
+## 📝 [작업기록 17] 요구사항 보충
 
 | 항목 | 기록 |
 |---|---|
@@ -1103,29 +1029,23 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 | **결과** | Gemini가 확정한 조건을 반영해 핵심 기능과 단계별 계획표를 작성했다. |
 | **프롬프트구분** | 유저 프롬프트 · 추가 조건 전달 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [5~6턴](#chat-5-turn-5) |
+| **대화원문** | [대화 원문 보기](#dialogue-27) |
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-5"></a>
+<table id="dialogue-27">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">5턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 상단탭, 꼭넣어야해 , 키 입력 전엔 기본 카드/안내로 두었다가 키 저장 시 자동 채우기/기획서안에 있는내용이야? / 아니 없는예시 만들지않고 단계에해당하는 완료기준을 체크표시하고 적어줘 . 핵심기능 , 개발로드맵 ,단계별계획 이 한장안에 들어와야하고 , 개발로드맵에단계와 아이콘이 단계별계획에 같은 컬러로 들어가면좋겠어 .  
 
 </td></tr></table>
 
 
-<a id="chat-5-turn-6"></a>
+<table id="dialogue-28">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">6턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 확인한 내용 중 **“키 입력 전엔 기본 카드/안내로 두었다가 키 저장 시 자동 채우기”**는 기획서에 나온 내용이 맞아요! 기획서 `3-1`과 `3-2`에 *“포스터를 가져오지 못한 영화는 제목이 적힌 기본 카드로 대체한다”* 및 *“키를 저장하면 포스터가 없는 기본 목록 영화도 자동으로 포스터를 채운다”*라고 명시되어 있어요. 그리고 **상단탭**을 꼭 넣기로 확정해 주셨고, 기획서에 없는 임의 예시 없이 **기획서 내 기준만 체크표시(`✅`)**로 연결해 한 장에 담아드릴게요.
 
 ---
@@ -1166,7 +1086,7 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 
 ---
 
-### 📝 [작업기록 18] 장보기 예시 적용
+## 📝 [작업기록 18] 장보기 예시 적용
 
 | 항목 | 기록 |
 |---|---|
@@ -1175,30 +1095,24 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 | **결과** | 장보기 예시의 배치를 적용한 영화 티어리스트 계획서 이미지를 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 예시를 활용한 이미지 생성 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [7~8턴](#chat-5-turn-7) |
+| **대화원문** | [대화 원문 보기](#dialogue-29) |
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-7"></a>
+<table id="dialogue-29">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">7턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 예시를줄게 이건 장보기 체크리스트 개발기획서를 보고 만든 장보기 체크리스트 개발 계획서야.  기획서를 주면 예시의 이미지처럼 개발순서로드맵과 개발단계별 실행표가 이런 인포그래픽으로 들어가면 좋을것같아. 
 [첨부 이미지: 장보기_체크리스트_개발계획서.png]
 
 </td></tr></table>
 
 
-<a id="chat-5-turn-8"></a>
+<table id="dialogue-30">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">8턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 보내주신 **장보기 체크리스트 개발계획서**와 똑같은 레이아웃·컬러 매칭 스타일로 **영화 티어리스트 개발계획서** 인포그래픽 이미지를 제작했어요!
 
 [생성 이미지: 영화 티어리스트 개발계획서 인포그래픽 (watermarked_img_12410612428490624078.jpg)]
@@ -1268,7 +1182,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 19] 계획서 말투 수정 요청
+## 📝 [작업기록 19] 계획서 말투 수정 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -1277,29 +1191,23 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | ⚠️ 문맥 끊김. 이미지 문구 수정 대신 용어 풀이와 계획 요약을 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [9~10턴 · 문맥 끊김](#chat-5-turn-9) |
+| **대화원문** | [대화 원문 보기](#dialogue-31) · 문맥 끊김 |
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-9"></a>
+<table id="dialogue-31">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">9턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 말투를 차분하고 친절한 존댓말을 쓰고 쉬운 단어로 짧게 말하고, 낯선 개발 용어는 풀어서 설명해줘 .
 
 </td></tr></table>
 
 
-<a id="chat-5-turn-10"></a>
+<table id="dialogue-32">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">10턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 네, 알겠습니다. 차분하고 친절한 존댓말로 쉬운 단어만 골라 짧게 말씀드릴게요. 낯선 개발 용어도 옆에서 쉽게 풀어서 설명해 드릴게요.
 
 ### 낯선 용어 쉽게 풀어보기
@@ -1328,7 +1236,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 20] 잘린 문장 수정 요청
+## 📝 [작업기록 20] 잘린 문장 수정 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -1337,29 +1245,23 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | ⚠️ 환각. Gemini는 수정이 끝났다고 했지만 받은 이미지 두 장에 오타와 깨진 문구가 남았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [11~12턴 · 환각](#chat-5-turn-11) |
+| **대화원문** | [대화 원문 보기](#dialogue-33) · 환각 |
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-11"></a>
+<table id="dialogue-33">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">11턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 이미지 오른쪽에서 완료 기준 문장이 잘려 끝까지 읽을 수 없어
 
 </td></tr></table>
 
 
-<a id="chat-5-turn-12"></a>
+<table id="dialogue-34">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">12턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 죄송합니다. 제가 글자 길이를 계산하지 못해서 중요한 완료 기준 문장이 잘리게 만들었군요.
 
 예시 이미지의 깨끗한 디자인은 그대로 유지하되, 오른쪽 표의 내용이 한 줄에 자연스럽게 들어가고 잘리지 않도록 수정해서 다시 만들었습니다. 이제 **완료 기준** 내용을 끝까지 모두 확인하실 수 있습니다.
@@ -1382,7 +1284,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 21] 이미지 수정 중단
+## 📝 [작업기록 21] 이미지 수정 중단
 
 | 항목 | 기록 |
 |---|---|
@@ -1391,11 +1293,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 수정을 중단하고 미해결 과업으로 기록했다. |
 | **프롬프트구분** | 사용자 판단 · 별도 프롬프트 없음 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [11~12턴](#chat-5-turn-12) |
+| **대화원문** | [대화 원문 보기](#dialogue-34) |
 
 ---
 
-### 📝 [작업기록 22] 대화 원문 저장 요청
+## 📝 [작업기록 22] 대화 원문 저장 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -1404,17 +1306,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 두 요청의 대화 기록 파일을 아래에 연결했다. |
 | **프롬프트구분** | 유저 프롬프트 · 파일 생성 요청 |
 | **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
-| **대화원문** | [13~14턴](#chat-5-turn-13) |
+| **대화원문** | [대화 원문 보기](#dialogue-35) |
 
 **💬 대화 원문**
 
-<a id="chat-5-turn-13"></a>
+<table id="dialogue-35">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">13턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘
 
@@ -1425,13 +1324,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 [<img src="assets/log-document-6.png" width="220" alt="첫 번째 대화 기록 파일">](../code_artifact%20%281%29.md)<br>[첫 번째 대화 기록 파일](../code_artifact%20%281%29.md)
 
 
-<a id="chat-5-turn-14"></a>
+<table id="dialogue-36">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">14턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘.대화 실행시점이언제인지 기록해줘
 
 </td></tr></table>
@@ -1446,7 +1342,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 23] 페르소나 적용
+## 📝 [작업기록 23] 페르소나 적용
 
 | 항목 | 기록 |
 |---|---|
@@ -1455,30 +1351,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | Gemini가 기획서의 목적과 완료 기준을 먼저 확인하겠다고 답했다. |
 | **프롬프트구분** | 시스템 프롬프트 · 페르소나 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [1~2턴](#chat-3-turn-1) |
+| **대화원문** | [대화 원문 보기](#dialogue-37) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-1"></a>
+<table id="dialogue-37">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 너의 전문 분야는 소프트웨어 개발 계획 수립과 인포그래픽 시각화야. 내가 기획서를 주면 먼저 목적을 읽고, 그 목적을 이루는 데 꼭 필요한 기능을 골라줘. 가장 중요한 기능과 가장 먼저 만들 기능을 각각 짚고, 그 이유를 쉬운 말로 한 문장씩 설명해줘. 전체 개발 순서는 가로모양으로 아이콘과 화살표로 구분하고 인포그래픽으로 보여주고, 각 단계는 ‘단계 , 제목 :할일,  결과물 , 체크표시 완료 기준’을  인포그래픽 으로 정리해줘. ‘할 일’은 내가 무엇을 만들어야 하는지, ‘결과물’은 만들고 나면 무엇이 생기는지, ‘완료 기준’은 내가 어떤 동작을 해 보고 무엇을 확인하면 되는지로 써줘. 기획서의 목적이 모호하거나 완료 기준이 빠져 있으면 임의로 채우지 말고, 해당 부분을 짚어 나에게 먼저 물어봐. 확인한 내용을 바탕으로 화살표와 표를 한눈에 볼 수 있는 1장 분량의 인포그래픽 개발 계획서로 만들어줘. 
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-2"></a>
+<table id="dialogue-38">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 네, 알겠습니다! 차분하고 친절하게 도와드릴게요. 저는 소프트웨어 개발 순서를 잡고, 한눈에 보기 쉽게 인포그래픽 형태로 정리해 드리는 **개발 순서 길잡이**예요.
 
@@ -1495,7 +1385,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 24] 기획서 전달
+## 📝 [작업기록 24] 기획서 전달
 
 | 항목 | 기록 |
 |---|---|
@@ -1504,32 +1394,26 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | Gemini가 핵심 기능과 단계별 완료 기준에 관해 되물었다. |
 | **프롬프트구분** | 유저 입력 · 기획서 첨부 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [3~4턴](#chat-3-turn-3) |
+| **대화원문** | [대화 원문 보기](#dialogue-39) |
 
 📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-3"></a>
+<table id="dialogue-39">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">3턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 > 첨부 파일 · `영화티어리스트 기획서 자료.md`
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-4"></a>
+<table id="dialogue-40">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">4턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 기획서를 꼼꼼히 읽어보았어요. 먼저 **확인할 점**을 짚고 여쭤본 뒤, 확인된 내용을 바탕으로 1장 분량의 인포그래픽 개발 계획서를 완성해 드릴게요.
 
@@ -1558,7 +1442,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 25] 목적과 완료 기준 확정
+## 📝 [작업기록 25] 목적과 완료 기준 확정
 
 | 항목 | 기록 |
 |---|---|
@@ -1567,30 +1451,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 영화 등급 분류를 중심으로 5단계 계획이 정리됐다. |
 | **프롬프트구분** | 유저 프롬프트 · 추가 조건 전달 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [5~6턴 · 추가 정보](#chat-3-turn-5) |
+| **대화원문** | [대화 원문 보기](#dialogue-41) · 추가 정보 |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-5"></a>
+<table id="dialogue-41">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">5턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  내가 본 영화를 S~D 등급으로 정리하는 게 핵심이고, 책갈피별 관리와 저장도 기획서에 적힌 대로 포함해 줘. 단계별 완료 기준은 기획서의 완성 기준 1~10번을 바탕으로 내가 직접 해 볼 행동과 확인할 결과로 풀어줘. 그럼 무엇부터 만들면 좋을지, 처음 요청한 형식대로 한 장짜리 인포그래픽 개발 계획서로 만들어줄래? 
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-6"></a>
+<table id="dialogue-42">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">6턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 # 📊 영화 티어리스트 개발 계획서 (1장 요약)
 
@@ -1622,7 +1500,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 26] 한 장짜리 이미지 요청
+## 📝 [작업기록 26] 한 장짜리 이미지 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -1631,17 +1509,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 첫 이미지를 받았다. 열이 하나 더 생겼고 중복 카드 동작도 기획서와 다르게 표시됐다. |
 | **프롬프트구분** | 유저 프롬프트 · 이미지 생성 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [7~8턴](#chat-3-turn-7) |
+| **대화원문** | [대화 원문 보기](#dialogue-43) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-7"></a>
+<table id="dialogue-43">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">7턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
   지금 정리한 개발 계획을 한 장짜리 인포그래픽 이미지로 만들어줘 .맨 위에는 가장 중요한 기능과 가장 먼저 만들 기능을 이유와 함께 한 문장씩 써줘. 그 아래에는 1~5단계를 아이콘과 화살표로 가로로 연결하고, 바로 밑에 같은 순서로 ‘단계와 제목 | 할 일 | 결과물 | ✅ 완료 기준’ 표를 넣어줘. 완료 기준은 내가 무엇을 해 보고 어떤 결과를 확인하면 되는지 짧게 써줘. 같은 내용은 한 번만 보여줘. 
 
@@ -1652,13 +1527,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 >
 > **⚠️ 환각 · 같은 이미지**　사용자는 9턴에서 이미지의 “중복된 카드가 목록에 들어감”이 기획서와 반대라고 짚었다. 기획서의 동작은 같은 영화를 다시 추가해도 카드 수가 늘지 않고 안내가 뜨는 것이다.
 
-<a id="chat-3-turn-8"></a>
+<table id="dialogue-44">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">8턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
@@ -1670,7 +1542,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 27] 표의 열 구성 수정
+## 📝 [작업기록 27] 표의 열 구성 수정
 
 | 항목 | 기록 |
 |---|---|
@@ -1679,30 +1551,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 네 열로 고쳐 달라는 요청에 두 번째 이미지를 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [9~10턴](#chat-3-turn-9) |
+| **대화원문** | [대화 원문 보기](#dialogue-45) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-9"></a>
+<table id="dialogue-45">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">9턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  표를 다시 봐줘. 내가 요청한 건 4열인데, ‘결과물’과 ‘✅ 완료 기준’ 사이에 ‘[4단계] 책갈피 관리’라는 열이 하나 더 생겼어. 그 열에 들어간 ‘직접 해 볼 동작’을 오른쪽의 ‘확인할 결과’와 합쳐서, 각 행의 완료 기준을 한 문장으로 써줘. 그리고 2단계에 적힌 “중복된 카드가 목록에 들어감”은 기획서와 반대야. “이미 추가한 영화를 다시 추가하면 카드 수는 그대로이고 중복 안내가 뜬다”로 고쳐줘. 위쪽의 가로 흐름은 유지하고, 아래 표는 단계와 제목 | 할 일 | 결과물 | ✅ 완료 기준 네 열로 고쳐서 한 장짜리 이미지로 다시 보여줘. 
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-10"></a>
+<table id="dialogue-46">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">10턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
@@ -1714,7 +1580,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 28] 단계별 카드 구성 요청
+## 📝 [작업기록 28] 단계별 카드 구성 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -1723,17 +1589,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 가로 로드맵과 카드 배치를 다시 지정해 세 번째 이미지를 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [11~12턴](#chat-3-turn-11) |
+| **대화원문** | [대화 원문 보기](#dialogue-47) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-11"></a>
+<table id="dialogue-47">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">11턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  지금 정리한 영화 티어리스트 개발 계획을 한 장짜리 인포그래픽 이미지로 만들어줘. 맨 위에는 가장 중요한 기능과 가장 먼저 만들 기능을 이유와 함께 한 문장씩 써줘. 
 
@@ -1747,13 +1610,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr></table>
 
 
-<a id="chat-3-turn-12"></a>
+<table id="dialogue-48">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">12턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
@@ -1765,7 +1625,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 29] 카드 문구 지정
+## 📝 [작업기록 29] 카드 문구 지정
 
 | 항목 | 기록 |
 |---|---|
@@ -1774,17 +1634,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 3단계 카드에 넣을 문구를 건네고 네 번째 이미지를 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [13~14턴](#chat-3-turn-13) |
+| **대화원문** | [대화 원문 보기](#dialogue-49) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-13"></a>
+<table id="dialogue-49">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">13턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  | 단계 번호와 아이콘 | 카드 내용 | 
  |---|---| 
@@ -1796,13 +1653,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr></table>
 
 
-<a id="chat-3-turn-14"></a>
+<table id="dialogue-50">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">14턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
@@ -1814,7 +1668,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 30] 제목과 중복 문구 수정
+## 📝 [작업기록 30] 제목과 중복 문구 수정
 
 | 항목 | 기록 |
 |---|---|
@@ -1823,17 +1677,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 제목과 중복 문구를 고쳐 달라는 요청에 다섯 번째 이미지를 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [15~16턴](#chat-3-turn-15) |
+| **대화원문** | [대화 원문 보기](#dialogue-51) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-15"></a>
+<table id="dialogue-51">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">15턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  제목은 영화 티어리스트 개발 계획서로 써줘. 그 아래에 ‘가장 중요한 기능’과 ‘가장 먼저 만들 기능’을 이유와 함께 한 문장씩, 각각 한 번만 넣어줘. 아이콘과 화살표로 연결한 가로 로드맵은 그대로 사용해줘. 
 
@@ -1849,13 +1700,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr></table>
 
 
-<a id="chat-3-turn-16"></a>
+<table id="dialogue-52">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">16턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 [생성된 이미지 · 공유 대화에서 보기](https://share.gemini.google/J2KuCirhz8tb)
 
@@ -1867,7 +1715,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 31] 레이아웃 예시 적용
+## 📝 [작업기록 31] 레이아웃 예시 적용
 
 | 항목 | 기록 |
 |---|---|
@@ -1876,17 +1724,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 장보기 예시를 참고해 만든 여섯 번째 이미지를 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 예시를 활용한 이미지 생성 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [17~18턴](#chat-3-turn-17) |
+| **대화원문** | [대화 원문 보기](#dialogue-53) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-17"></a>
+<table id="dialogue-53">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">17턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 > 첨부 이미지 · 장보기 체크리스트 개발 계획서
 
@@ -1895,13 +1740,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr></table>
 
 
-<a id="chat-3-turn-18"></a>
+<table id="dialogue-54">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">18턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 가족같이 친근하고 직관적인 스타일의 예시 형식을 참고해서, 영화 티어리스트에 꼭 맞는 1장짜리 개발 계획서를 제작해 보았어요!
 
@@ -1923,7 +1765,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 32] ‘새로고침’ 표현 확인
+## 📝 [작업기록 32] ‘새로고침’ 표현 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -1932,30 +1774,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | Gemini는 완성 기준 3번이 같은 브라우저에서 같은 파일을 다시 여는 동작이라고 답했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [19~20턴](#chat-3-turn-19) |
+| **대화원문** | [대화 원문 보기](#dialogue-55) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-19"></a>
+<table id="dialogue-55">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">19턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
  네가 만든 개발 계획서 5단계에 ‘새로고침’이라고 썼는데, 기획서 원문에도 그 표현이 있어? 완성 기준 3번을 그대로 인용하고, 원문에서 내가 어떤 동작을 해 봐야 한다고 했는지 알려줘. 
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-20"></a>
+<table id="dialogue-56">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">20턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 아니에요, 기획서 원문에는 **‘새로고침’이라는 단어가 없어요.** 제가 완료 기준을 쉽게 풀어서 설명하면서 보탠 말이에요.
 
@@ -1969,7 +1805,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 33] 3단계 오타 확인
+## 📝 [작업기록 33] 3단계 오타 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -1978,30 +1814,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | ⚠️ 환각. Gemini는 오타가 없다고 답하며 이미지에 있는 ‘하면’을 빼고 인용했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [21~22턴](#chat-3-turn-21) |
+| **대화원문** | [대화 원문 보기](#dialogue-57) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-21"></a>
+<table id="dialogue-57">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">21턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 이번에는 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-22"></a>
+<table id="dialogue-58">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">22턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 방금 생성된 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 살펴보았어요.
 
@@ -2019,7 +1849,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 34] 3단계 오타 재확인
+## 📝 [작업기록 34] 3단계 오타 재확인
 
 | 항목 | 기록 |
 |---|---|
@@ -2028,17 +1858,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | ⚠️ 환각. 재확인에서도 ‘하면’을 빠뜨렸다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [23~24턴](#chat-3-turn-23) |
+| **대화원문** | [대화 원문 보기](#dialogue-59) |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-23"></a>
+<table id="dialogue-59">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">23턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
@@ -2049,13 +1876,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 > **⚠️ 환각 · 22턴 첫 확인과 24턴 재검증**　시스템 설계 문서 9절에 기록된 사용자 확인에 따르면 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었다. 두 답변 모두 ‘하면’을 뺀 문장을 이미지 원문으로 제시했다. 설계 문서에 기록된 판정은 Fail이다.
 
-<a id="chat-3-turn-24"></a>
+<table id="dialogue-60">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">24턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 다시 꼼꼼히 살펴보았어요.
 
@@ -2073,7 +1897,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 35] 이미지 수정 요청
+## 📝 [작업기록 35] 이미지 수정 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -2082,30 +1906,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 이미지 생성 한도에 도달했다. 수정 이미지 대신 6단계 텍스트 계획을 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
-| **대화원문** | [25~26턴 · 동일 입력 첫 실행](#chat-3-turn-25) |
+| **대화원문** | [대화 원문 보기](#dialogue-61) · 동일 입력 첫 실행 |
 
 **💬 대화 원문**
 
-<a id="chat-3-turn-25"></a>
+<table id="dialogue-61">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">25턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 오타는 수정해주고 책갈피 따로 만들고  저장하기,불러오기 를 합치면 될거같아.
 
 </td></tr></table>
 
 
-<a id="chat-3-turn-26"></a>
+<table id="dialogue-62">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">26턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 아쉽지만 현재 이미지 생성 할당량이 모두 차서 인포그래픽 이미지를 새로 만들지 못했어요. 할당량이 재설정된 뒤 다시 요청해 주시면 바로 만들어 드릴게요!
 
@@ -2185,7 +2003,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 36] 예시를 넣어 이미지 생성
+## 📝 [작업기록 36] 예시를 넣어 이미지 생성
 
 | 항목 | 기록 |
 |---|---|
@@ -2194,19 +2012,16 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 5단계 인포그래픽이 생성됐다. |
 | **프롬프트구분** | 유저 프롬프트 · 예시를 활용한 이미지 생성 |
 | **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
-| **대화원문** | [1~2턴](#chat-4-turn-1) |
+| **대화원문** | [대화 원문 보기](#dialogue-63) |
 
 📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
-<a id="chat-4-turn-1"></a>
+<table id="dialogue-63">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 [입력 자료]
 - 프로젝트 이름: 영화 티어리스트
@@ -2269,13 +2084,10 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 </td></tr></table>
 
 
-<a id="chat-4-turn-2"></a>
+<table id="dialogue-64">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 *(생성된 이미지: `watermarked_img_4549971170223832447.png`)*
 
@@ -2309,7 +2121,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 37] 제목 오타 확인
+## 📝 [작업기록 37] 제목 오타 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -2318,9 +2130,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 제목에 ‘회’가 추가돼 ‘영화 회 티어리스트’로 표시된 것을 확인했다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
-| **대화원문** | [3~4턴](#chat-4-turn-3) |
+| **대화원문** | [대화 원문 보기](#dialogue-65) |
 
-### 📝 [작업기록 38] 누락된 내용 확인
+---
+
+## 📝 [작업기록 38] 누락된 내용 확인
 
 | 항목 | 기록 |
 |---|---|
@@ -2329,30 +2143,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 답변에서 책갈피별 독립 배치, 저장 범위 선택, 불러오기 안전장치 등의 누락을 짚었다. |
 | **프롬프트구분** | 유저 프롬프트 · 검증 질문 |
 | **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
-| **대화원문** | [같은 3~4턴](#chat-4-turn-3) |
+| **대화원문** | [대화 원문 보기](#dialogue-65) |
 
 **💬 대화 원문**
 
-<a id="chat-4-turn-3"></a>
+<table id="dialogue-65">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">3턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 오타나 기획서의 빠진내용있는지 확인해줘
 
 </td></tr></table>
 
 
-<a id="chat-4-turn-4"></a>
+<table id="dialogue-66">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">4턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 생성된 인포그래픽 이미지(`watermarked_img_4549971170223832447.png`)와 기획서 원문(`영화티어리스트 기획서 자료.md`)을 비교해 보니 **오타**와 **기획서에 있지만 빠진 내용**이 보여요. 차분히 짚어 드릴게요!
 
@@ -2374,7 +2182,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 39] 같은 수정 요청 재실행
+## 📝 [작업기록 39] 같은 수정 요청 재실행
 
 | 항목 | 기록 |
 |---|---|
@@ -2383,30 +2191,24 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 첫 실행과 마찬가지로 생성 한도 안내를 받았고 수정 이미지는 나오지 않았다. |
 | **프롬프트구분** | 유저 프롬프트 · 수정 요청 |
 | **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
-| **대화원문** | [5~6턴 · 동일 입력 두 번째 실행](#chat-4-turn-5) |
+| **대화원문** | [대화 원문 보기](#dialogue-67) · 동일 입력 두 번째 실행 |
 
 **💬 대화 원문**
 
-<a id="chat-4-turn-5"></a>
+<table id="dialogue-67">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">5턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 오타는 수정해주고 책갈피 따로 만들고  저장하기,불러오기 를 합치면 될거같아. 
 
 </td></tr></table>
 
 
-<a id="chat-4-turn-6"></a>
+<table id="dialogue-68">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">6턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 
 한도가 재설정되는 대로 이미지를 더 생성할 수 있습니다. 설정에서 사용량을 확인해 보세요.
 
@@ -2414,11 +2216,11 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 <a id="같은-입력을-두-번-실행한-결과"></a>
 
-> 🔁 **동일 입력 비교** · [첫 실행](#chat-3-turn-25)과 [두 번째 실행](#chat-4-turn-5)은 끝 공백을 제외하면 같은 요청이다. 두 답변의 표현은 달랐고, 두 번 모두 생성 한도 안내와 함께 수정 이미지가 나오지 않았다.
+> 🔁 **동일 입력 비교** · [첫 실행](#dialogue-61)과 [두 번째 실행](#dialogue-67)은 끝 공백을 제외하면 같은 요청이다. 두 답변의 표현은 달랐고, 두 번 모두 생성 한도 안내와 함께 수정 이미지가 나오지 않았다.
 
 ---
 
-### 📝 [작업기록 40] 대화 원문 저장 요청
+## 📝 [작업기록 40] 대화 원문 저장 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -2427,17 +2229,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | 저장된 대화 기록 파일을 아래에 연결했다. |
 | **프롬프트구분** | 유저 프롬프트 · 파일 생성 요청 |
 | **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
-| **대화원문** | [7턴](#chat-4-turn-7) |
+| **대화원문** | [대화 원문 보기](#dialogue-69) |
 
 **💬 대화 원문**
 
-<a id="chat-4-turn-7"></a>
+<table id="dialogue-69">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">7턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 
 지금까지 대화를 원문그대로 .md로 만들어주고 대화실행시점도 표시해줘
 
@@ -2453,7 +2252,7 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 
 ---
 
-### 📝 [작업기록 41] 예시가 포함된 프롬프트 적용
+## 📝 [작업기록 41] 예시가 포함된 프롬프트 적용
 
 | 항목 | 기록 |
 |---|---|
@@ -2462,17 +2261,14 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **결과** | Gemini가 예시 형식과 모호한 입력에 먼저 질문하는 규칙을 확인했다. |
 | **프롬프트구분** | 시스템 프롬프트 · 페르소나 · Few-shot |
 | **시각** | 2026년 11월 21일 13:55 · 대화창 기준 |
-| **대화원문** | [1~2턴](#chat-6-turn-1) |
+| **대화원문** | [대화 원문 보기](#dialogue-70) |
 
 **💬 대화 원문**
 
-<a id="chat-6-turn-1"></a>
+<table id="dialogue-70">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">1턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 너는 개발 초보자를 돕는 ‘개발 순서 길잡이’야. 내가 기획서를 주면 먼저 ‘이걸 쓰는 사람이 무엇을 할 수 있어야 하는지’를 한 문장으로 정리해 줘. 목적이 여러 가지로 읽혀서 어떤 기능이 필요한지 달라진다면, 계획서를 쓰기 전에 짧은 질문을 하고 내 답을 기다려 줘.
 
 목적이 분명해지면 기획서에 나온 기능 중 그 목적을 이루는 데 꼭 필요한 기능을 골라 줘. 그중 사용자에게 가장 중요한 기능과 개발할 때 먼저 만들어야 하는 기능을 구분하고, 각각의 이유를 쉬운 말로 한 줄씩 써 줘.
@@ -2549,13 +2345,10 @@ PNG 내려받기는 티어표를 이미지로 꺼내 쓰고 싶을 때 추가해
 </td></tr></table>
 
 
-<a id="chat-6-turn-2"></a>
+<table id="dialogue-71">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">2턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 알겠습니다! 앞으로 기획서를 주시면 **‘개발 순서 길잡이’**로서 목적 정리, 핵심 기능 선별, 그리고 한눈에 보는 개발 계획서(화살표 순서 + 가로 표)까지 예시 형식에 맞춰 안내해 드릴게요.
 
 기획서나 만들고 싶은 앱·도구의 아이디어를 편하게 보내 주세요. 목적이 모호할 때는 짧은 질문으로 먼저 확인한 뒤 계획서를 정리해 드릴게요!
@@ -2564,7 +2357,7 @@ PNG 내려받기는 티어표를 이미지로 꺼내 쓰고 싶을 때 추가해
 
 ---
 
-### 📝 [작업기록 42] 영화 기획서로 계획서 생성
+## 📝 [작업기록 42] 영화 기획서로 계획서 생성
 
 | 항목 | 기록 |
 |---|---|
@@ -2573,19 +2366,16 @@ PNG 내려받기는 티어표를 이미지로 꺼내 쓰고 싶을 때 추가해
 | **결과** | 영화 등급 분류와 배치 저장을 중심으로 개발 순서와 완료 기준을 정리한 답변을 받았다. |
 | **프롬프트구분** | 유저 입력 · 기획서 첨부 |
 | **시각** | 2026년 11월 21일 13:55 · 대화창 기준 |
-| **대화원문** | [3~4턴](#chat-6-turn-3) |
+| **대화원문** | [대화 원문 보기](#dialogue-72) |
 
 📎 [첨부한 영화 티어리스트 기획서](../%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md)
 
 **💬 대화 원문**
 
-<a id="chat-6-turn-3"></a>
+<table id="dialogue-72">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">3턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 *(첨부 파일: 영화티어리스트 기획서 자료.md)*
 
 # 📋 영화 티어리스트  기획서
@@ -2781,13 +2571,10 @@ PNG 저장은 화면에 보이는 티어리스트 영역만 담는다. 추가한
 </td></tr></table>
 
 
-<a id="chat-6-turn-4"></a>
+<table id="dialogue-73">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">4턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 목적　내가 본 영화를 S·A·B·C·D 등급으로 나누고 관리하며, 다음에 다시 열어도 그 등급과 배치를 그대로 확인해요.
 꼭 필요한 기능	가장 중요한 기능	먼저 만들 기능
 영화 추가·목록 관리, S·A·B·C·D 등급 배치·변경·삭제, 배치 저장	등급 배치·변경·삭제예요. 영화를 5단계 티어로 나누고 언제든 등급을 바꾸거나 지울 수 있어야 이 앱의 목적을 이루어요.	영화 추가·목록 관리예요. 화면에 영화 카드가 있어야 등급 칸으로 옮기고 배치해 볼 수 있어요.
@@ -2806,7 +2593,7 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 ---
 
-### 📝 [작업기록 43] 계획서 파일 요청
+## 📝 [작업기록 43] 계획서 파일 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -2815,29 +2602,23 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 | **결과** | Few-shot개발계획서.md 파일을 받았다. |
 | **프롬프트구분** | 유저 프롬프트 · 파일 생성 요청 |
 | **시각** | 2026년 11월 21일 13:55 · 대화창 기준 |
-| **대화원문** | [5~6턴](#chat-6-turn-5) |
+| **대화원문** | [대화 원문 보기](#dialogue-74) |
 
 **💬 대화 원문**
 
-<a id="chat-6-turn-5"></a>
+<table id="dialogue-74">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">5턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 Few-shot개발계획서.md 로 만들어줘
 
 </td></tr></table>
 
 
-<a id="chat-6-turn-6"></a>
+<table id="dialogue-75">
+<tr><td bgcolor="#EAF3FF">
 
-<table>
-<tr><th align="left">6턴</th></tr>
-<tr><td>
-
-### **AI:**
+### **🟦 🤖 AI:**
 영화 티어리스트 기획서를 바탕으로 정리한 개발 계획서를 `Few-shot개발계획서.md` 파일로 생성하겠습니다.
 
 *(생성된 파일: Few-shot개발계획서.md)*
@@ -2870,7 +2651,7 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 
 ---
 
-### 📝 [작업기록 44] 대화 원문 저장 요청
+## 📝 [작업기록 44] 대화 원문 저장 요청
 
 | 항목 | 기록 |
 |---|---|
@@ -2879,17 +2660,14 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 | **결과** | 실행 시점이 적힌 대화 원문 파일을 아래에 연결했다. |
 | **프롬프트구분** | 유저 프롬프트 · 파일 생성 요청 |
 | **시각** | 2026년 11월 21일 13:55 · 대화창 기준 |
-| **대화원문** | [7턴](#chat-6-turn-7) |
+| **대화원문** | [대화 원문 보기](#dialogue-76) |
 
 **💬 대화 원문**
 
-<a id="chat-6-turn-7"></a>
+<table id="dialogue-76">
+<tr><td bgcolor="#FFFFFF">
 
-<table>
-<tr><th align="left">7턴</th></tr>
-<tr><td>
-
-### **User:**
+### **⬜ 👤 User:**
 지금까지 대화를 원문그대로 모두 담아서.md 로 만들어줘.대화 실행시점이언제인지 기록해줘
 
 </td></tr></table>
