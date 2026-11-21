@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="848" viewBox="0 0 842 595" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" role="img"><title>숨은 보험금 찾기 · 금액을 확인하고 결과 보관하기</title>
+<rect x="0" y="0" width="842" height="595" rx="0" fill="#F4F8F5"/>
+<text x="30" y="28" font-size="10" font-weight="700" fill="#21695D">개발 순서 길잡이　 /　 인포그래픽 개발 계획서</text>
+<text x="770" y="28" font-size="12" font-weight="700" fill="#21695D">2 / 2</text>
+<text x="28" y="65" font-size="30" font-weight="700" fill="#193B38">숨은 보험금 찾기</text>
+<text x="292" y="63" font-size="16" font-weight="700" fill="#49665F">금액을 확인하고 결과 보관하기</text>
+<rect x="30" y="80" width="782" height="25" rx="5" fill="#DFEEE7"/>
+<text x="41" y="97" font-size="10.3" font-weight="700" fill="#193B38">금액을 나누는 기준</text>
+<text x="155" y="97" font-size="10.4" font-weight="400" fill="#193B38">조건을 최종 확인하면 지급가능 추정액, 계산 근거는 있지만 미확인 조건이 있으면 예상금액으로 표시해요.</text>
+<rect x="30" y="107" width="782" height="25" rx="5" fill="#FFF1CA"/>
+<text x="41" y="124" font-size="10.3" font-weight="700" fill="#193B38">근거가 부족할 때</text>
+<text x="155" y="124" font-size="10.4" font-weight="400" fill="#193B38">가입한 특약이 불분명하거나 계산 근거가 부족하면 ‘추가 확인’으로 표시하고 합계에서 제외해요.</text>
+<rect x="30" y="149" width="247" height="43" rx="8" fill="#193B38"/>
+<circle cx="51" cy="170" r="12" fill="#21695D"/><g transform="translate(51 170)">
+<path d="M-7 -7h14v14h-14z M-5 -2h10 M-4 3h2 M-1 3h2 M2 3h2" stroke="white" stroke-width="1.3" fill="none"/>
+</g>
+<text x="73" y="176" font-size="14" font-weight="700" fill="white">04　금액과 청구 상태</text>
+<path d="M280 170h13l-4 -4m4 4l-4 4" stroke="#21695D" stroke-width="1" fill="none"/>
+<rect x="297" y="149" width="247" height="43" rx="8" fill="#193B38"/>
+<circle cx="318" cy="170" r="12" fill="#21695D"/><g transform="translate(318 170)">
+<path d="M-7 -7h14v14h-14z M-4 0l3 3 5 -7" stroke="white" stroke-width="1.3" fill="none"/>
+</g>
+<text x="340" y="176" font-size="14" font-weight="700" fill="white">05　기록 관리</text>
+<path d="M547 170h13l-4 -4m4 4l-4 4" stroke="#21695D" stroke-width="1" fill="none"/>
+<rect x="564" y="149" width="247" height="43" rx="8" fill="#193B38"/>
+<circle cx="585" cy="170" r="12" fill="#21695D"/><g transform="translate(585 170)">
+<path d="M0 -7v10 M-4 -1l4 4 4 -4 M-7 6h14" stroke="white" stroke-width="1.3" fill="none"/>
+</g>
+<text x="607" y="176" font-size="14" font-weight="700" fill="white">06　백업과 내보내기</text>
+<rect x="30" y="210" width="782" height="28" rx="4" fill="#21695D"/>
+<text x="40" y="229" font-size="11" font-weight="700" fill="white">단계·제목</text>
+<text x="167" y="229" font-size="11" font-weight="700" fill="white">할 일</text>
+<text x="383" y="229" font-size="11" font-weight="700" fill="white">결과물</text>
+<text x="550" y="229" font-size="11" font-weight="700" fill="white">완료 기준</text>
+<path d="M534 225l3 4 7 -11" stroke="white" stroke-width="1.6" fill="none"/>
+<rect x="30" y="238" width="782" height="91" rx="0" fill="white"/>
+<path d="M157 245v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<path d="M373 245v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<path d="M524 245v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<text x="40" y="259" font-size="12" font-weight="700" fill="#21695D">04</text>
+<text x="40" y="282" font-size="12" font-weight="700" fill="#193B38">금액과 청구 상태</text>
+<text x="167" y="258" font-size="10.4" font-weight="400" fill="#193B38">가입금액·지급 조건·진단 사실을 입력받아</text>
+<text x="167" y="272.5" font-size="10.4" font-weight="400" fill="#193B38">계산해요. 계약별로 중복을 확인하고</text>
+<text x="167" y="287" font-size="10.4" font-weight="400" fill="#193B38">미청구·청구함·모름을 직접 표시해요.</text>
+<text x="383" y="258" font-size="10.4" font-weight="400" fill="#193B38">계산식과 원 단위 금액,</text>
+<text x="383" y="272.5" font-size="10.4" font-weight="400" fill="#193B38">전체·미청구 각각의</text>
+<text x="383" y="287" font-size="10.4" font-weight="400" fill="#193B38">지급가능 추정액과</text>
+<text x="383" y="301.5" font-size="10.4" font-weight="400" fill="#193B38">예상금액</text>
+<text x="534" y="258" font-size="10.4" font-weight="400" fill="#193B38">⑤ 가입금액과 지급 조건을 넣으면 계산식과 예상금액이</text>
+<text x="534" y="272.5" font-size="10.4" font-weight="400" fill="#193B38">보여요. 손계산과 대조해요.</text>
+<text x="534" y="287" font-size="10.4" font-weight="400" fill="#193B38">⑥ 미청구로 바꾸면 해당 금액이 미청구 합계에 반영돼요.</text>
+<text x="534" y="301.5" font-size="10.4" font-weight="400" fill="#193B38">전체에 두 번 더해지지 않아야 해요.</text>
+<rect x="30" y="329" width="782" height="91" rx="0" fill="#EBF3ED"/>
+<path d="M157 336v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<path d="M373 336v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<path d="M524 336v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<text x="40" y="350" font-size="12" font-weight="700" fill="#21695D">05</text>
+<text x="40" y="373" font-size="12" font-weight="700" fill="#193B38">기록 관리</text>
+<text x="167" y="349" font-size="10.4" font-weight="400" fill="#193B38">검색·메모·책갈피를 같은 브라우저에 자동</text>
+<text x="167" y="363.5" font-size="10.4" font-weight="400" fill="#193B38">저장해요. 초기화 전에는 지울 기록과</text>
+<text x="167" y="378" font-size="10.4" font-weight="400" fill="#193B38">남길 보험자료를 안내해요.</text>
+<text x="383" y="349" font-size="10.4" font-weight="400" fill="#193B38">다시 열 수 있는 검색</text>
+<text x="383" y="363.5" font-size="10.4" font-weight="400" fill="#193B38">기록·책갈피와 검색기록</text>
+<text x="383" y="378" font-size="10.4" font-weight="400" fill="#193B38">초기화 버튼</text>
+<text x="534" y="349" font-size="10.4" font-weight="400" fill="#193B38">⑦ 메모와 책갈피를 저장하고 같은 브라우저에서 다시</text>
+<text x="534" y="363.5" font-size="10.4" font-weight="400" fill="#193B38">열면 둘 다 남아 있어요.</text>
+<text x="534" y="378" font-size="10.4" font-weight="400" fill="#193B38">⑧ 초기화를 확인하면 검색 기록과 책갈피가 비고,</text>
+<text x="534" y="392.5" font-size="10.4" font-weight="400" fill="#193B38">보험자료 3종은 남아 다시 검색할 수 있어요.</text>
+<rect x="30" y="420" width="782" height="91" rx="0" fill="white"/>
+<path d="M157 427v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<path d="M373 427v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<path d="M524 427v77" stroke="#D7E4DC" stroke-width="0.6" fill="none"/>
+<text x="40" y="441" font-size="12" font-weight="700" fill="#21695D">06</text>
+<text x="40" y="464" font-size="12" font-weight="700" fill="#193B38">백업과 내보내기</text>
+<text x="167" y="440" font-size="10.4" font-weight="400" fill="#193B38">백업 내용을 미리 보고 합치거나 전체</text>
+<text x="167" y="454.5" font-size="10.4" font-weight="400" fill="#193B38">교체하게 해요. 변경 이력 복구와 근거가</text>
+<text x="167" y="469" font-size="10.4" font-weight="400" fill="#193B38">담긴 결과 PDF·CSV 저장을 연결해요.</text>
+<text x="383" y="440" font-size="10.4" font-weight="400" fill="#193B38">옮길 수 있는 백업 파일과</text>
+<text x="383" y="454.5" font-size="10.4" font-weight="400" fill="#193B38">근거가 담긴 PDF·CSV</text>
+<text x="534" y="440" font-size="10.4" font-weight="400" fill="#193B38">별도 검증 · 다른 브라우저에 복원해 건수·연결·합계를</text>
+<text x="534" y="454.5" font-size="10.4" font-weight="400" fill="#193B38">대조해요. 건강정보 안내 후 PDF·CSV를 열어 근거와</text>
+<text x="534" y="469" font-size="10.4" font-weight="400" fill="#193B38">금액이 화면과 같은지 확인해요.</text>
+<text x="30" y="532" font-size="11" font-weight="700" fill="#21695D">확인 필요</text>
+<text x="108" y="532" font-size="10" font-weight="400" fill="#193B38">파일명만 남은 자료의 건수 인정, 보험별 3종 잠금, 등록 버튼 배치, 미리보기 선택 보관, 백업 범위·암호화.</text>
+<text x="30" y="553" font-size="11" font-weight="700" fill="#21695D">별도 검증</text>
+<text x="108" y="553" font-size="10" font-weight="400" fill="#193B38">모바일·시크릿 창, 마스킹, PDF 추출 실패, 중복·복합 계산, 저장 실패·이력 복구는 기획서 8절로 대조해요.</text>
+<text x="30" y="583" font-size="9" font-weight="400" fill="#49665F">기획서 5절　·　①–⑧은 직접 시험할 8개 완료 기준이며 현재 모두 미시험이에요.</text>
+</svg>
