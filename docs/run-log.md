@@ -684,66 +684,14 @@ JSON 파일로 저장하거나 HTML 코드를 배포할 때 API 키는 어떻게
 
 보내주신 **장보기 체크리스트 개발계획서**와 똑같은 레이아웃·컬러 매칭 스타일로 **영화 티어리스트 개발계획서** 인포그래픽 이미지를 제작했어요!
 
-[생성 이미지: 영화 티어리스트 개발계획서 인포그래픽 (watermarked_img_12410612428490624078.jpg)]
-
-```text
-Based on the clean Korean software development plan infographic layout from <IMAGE_0>, create a flat, front-facing, full-bleed software development plan infographic titled "영화 티어리스트 개발계획서" in Korean, utilizing the exact warm off-white background, typography hierarchy, and UI elements.
-
-[Header Section]
-- Top Left: Title "영화 티어리스트 개발계획서" (Dark navy/black bold) and subtitle "목적  본인이 본 영화를 등급별로 정리한다." in small gray text.
-- Top Right Summary: Blue text "첫 구현  화면 뼈대와 티어 조작" and brown text "핵심 기능  S~D 티어 배치 및 관리".
-- Beneath the header: A thin, horizontal dark divider line.
-
-[Section 1: "개발 순서 로드맵"]
-5 connected horizontal chevron-shaped progress arrows spanning the width, with circular line-drawn icons placed directly above each arrowhead, retaining the icon style of <IMAGE_0>:
-01 Teal (#0F6E6E): "01 화면 뼈대·티어 조작" (layout/tier grid icon above)
-02 Blue (#2C5E8A): "02 TMDB 검색·API 키" (magnifying glass search icon above)
-03 Purple (#5E4B7A): "03 상단탭·다중 책갈피" (tabs/bookmark icon above)
-04 Brown (#7C4D2B): "04 자동저장·JSON 입출력" (folder/save icon above)
-05 Green (#336647): "05 PNG 저장·반응형 마감" (image/responsive icon above)
-
-[Section 2: "개발 단계별 실행표"]
-5 white horizontal rows matching the exact look of <IMAGE_0>, featuring color-coded vertical left accent bars, icons, numbers, and titles on the left, with the respective implementation details, results, and criteria on the right:
-
-Row 01 (Teal):
-- Left side: Circular layout icon, "01", "화면 뼈대·티어 조작" in teal.
-- Content: "단일 HTML에 검색창·목록·노란색 S~D 피라미드 티어와 드래그·메뉴 조작을 만들어."
-  - "결과물  초기 목록과 S~D 티어 배치·등급 변경·삭제가 되는 단일 HTML 화면"
-  - "✓ 완료 기준  ✅ 2 드래그 앤 드롭으로 티어 간 이동이 됩니다.  ✅ 6 외부 파일·로그인·서버 실행 없이 HTML 한 장으로 열립니다."
-
-Row 02 (Blue):
-- Left side: Circular search icon, "02", "TMDB 검색·API 키" in blue.
-- Content: "설정에서 API 키(v3)를 저장하고, 영화 검색·중복 차단·포스터 자동 채우기를 구현해."
-  - "결과물  검색 결과 목록 추가와 키 저장 시 기본 카드 포스터가 자동 채워지는 검색 기능"
-  - "✓ 완료 기준  ✅ 1 영화 검색 시 포스터와 제목이 자동으로 표시되며 목록에 추가하기로 추가한 영화 목록에 넣을 수 있습니다.  ✅ 8 빈칸이나 공백만 넣으면 카드가 생기지 않고 입력 안내가 나옵니다"
-
-Row 03 (Purple):
-- Left side: Circular tabs/bookmark icon, "03", "상단탭·다중 책갈피" in purple.
-- Content: "제목을 지정해 여러 책갈피를 만들고 상단탭으로 전환해 독립적으로 관리하게 해."
-  - "결과물  상단탭으로 책갈피를 생성·전환하며 각각 영화 등급과 배치를 따로 관리하는 화면"
-  - "✓ 완료 기준  ✅ 9 제목을 지정해 여러 개의 책갈피를 생성하고, 각 책갈피에서 영화의 등급과 배치를 독립적으로 할 수 있다."
-
-Row 04 (Brown):
-- Left side: Circular folder/save icon, "04", "자동저장·JSON 입출력" in brown.
-- Content: "localStorage 자동 저장과 현재/전체 책갈피 JSON 저장 및 3단계 불러오기를 만들어."
-  - "결과물  재접속 유지와 현재/전체 JSON 저장·3단계 안전장치 불러오기가 되는 저장 기능"
-  - "✓ 완료 기준  ✅ 3 같은 브라우저에서 같은 파일을 다시 열어도 영화와 등급이 남습니다.  ✅ 5 파일저장을 하고 불러오기로 다시 불러올 수 있습니다.  ✅ 10 책갈피에서 파일 저장 하기를 실행시 현재 페이지 또는 전체페이지 저장을 선택할 수있다."
-
-Row 05 (Green):
-- Left side: Circular image/responsive icon, "05", "PNG 저장·반응형 마감" in green.
-- Content: "목록을 제외한 티어리스트 PNG 저장과 좁은 화면에서도 잘리지 않는 반응형을 마감해."
-  - "결과물  티어리스트 PNG 이미지 저장과 좁은 화면에서도 잘림 없는 최종 단일 HTML"
-  - "✓ 완료 기준  ✅ 4 등급이 정해진 영화티어리스트 를 이미지로 저장할 수 있습니다.  ✅ 7 화면 폭이 좁아져도 오른쪽이 잘리지 않고 내용을 볼 수 있습니다."
-
-Maintains precise typography, alignment, and grid system as visualised in <IMAGE_0>. No additional placeholders, signatures, or words are added. Only natural Korean text with checkmark symbols., AI generated, AI로 생성
-```
+<a href="assets/chat-05-dialogue-30.webp"><img src="assets/chat-05-dialogue-30.webp" width="220" alt="영화 티어리스트 개발계획서"></a>
 
 * **상단 요약**: 왼쪽에 목적, 오른쪽에 **첫 구현**(`화면 뼈대와 티어 조작`)과 **핵심 기능**(`S~D 티어 배치 및 관리`)을 한눈에 배치했습니다.
 * **개발 순서 로드맵 & 실행표 컬러 통일**: 01번부터 05번까지 가로 화살표·아이콘의 색상과 아래 실행표 왼쪽 바·아이콘·제목 색상을 동일하게 맞췄고, 각 단계의 **✓ 완료 기준**에는 기획서 속 완성 기준 항목을 그대로 연결했습니다.
 
-수정하고 싶은 문구나 추가할 기획서가 있다면 언제든 말씀해 주세요!
+<a href="../자료/%EC%98%81%ED%99%94%ED%8B%B0%EC%96%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C%20%EC%9E%90%EB%A3%8C.md">영화티어리스트 기획서 자료.md</a>
 
-<a href="assets/conversation-05-5.png"><img src="assets/conversation-05-5.png" width="220" alt="첫 결과 이미지가 남은 캡처"></a><br><a href="assets/conversation-05-5.png">첫 결과 이미지가 남은 캡처</a>
+수정하고 싶은 문구나 추가할 기획서가 있다면 언제든 말씀해 주세요!
 
 </td></tr>
 <tr id="dialogue-31"><th scope="row" align="left" valign="top">👤 User:</th><td>
