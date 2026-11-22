@@ -10,7 +10,7 @@
 | **내용** | 세 모델에 공통으로 사용할 요청문을 Gemini에 예시 없이 입력했다. 단계마다 할 일·결과물·완료 기준을 표로 정리하도록 했다. |
 | **결과** | Gemini가 5단계 계획서를 마크다운 파일로 만들었다. |
 | **프롬프트 구분** | 유저 프롬프트 v1 · 텍스트 생성 |
-| **시각** | 2026년 11월 20일 15:08 · 공유 화면 표시 |
+| **시각** | 2026년 11월 20일 15:08 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-01">대화원문보기</a> · <a href="https://share.gemini.google/fzELogiUaczf">대화링크</a></th></tr></thead>
@@ -53,7 +53,7 @@
 | **내용** | Gemini에 보낸 요청문을 GPT에도 예시 없이 입력했다. 필수 기능을 고르고 개발 순서와 완료 기준을 표와 도식으로 정리하도록 했다. |
 | **결과** | GPT가 6단계 개발 순서와 단계별 완료 기준을 담은 계획서를 만들었다. |
 | **프롬프트 구분** | 유저 프롬프트 v1 · 텍스트 생성 |
-| **시각** | 2026년 11월 20일 15:09 · 사용자 기록 (공유 화면 15:08) |
+| **시각** | 2026년 11월 20일 15:09 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#comparison-2-1">대화원문보기</a> · <a href="https://chatgpt.com/share/6affe61c-4b50-83e8-9854-2ba9045cbc99">대화링크</a></th></tr></thead>
@@ -87,7 +87,6 @@
 | **내용** | 다른 두 모델과 같은 요청문을 예시 없이 입력했다. Claude가 책갈피·초기 포스터·인터넷 연결을 어떻게 해석했는지도 추가 답변에서 확인했다. |
 | **결과** | Claude가 계획서를 만들고 책갈피·초기 포스터·인터넷 연결에 관한 가정을 추가 답변에 밝혔다. |
 | **프롬프트 구분** | 유저 프롬프트 v1 · 텍스트 생성 |
-| **시각** | 모델 비교 당시 · 정확한 실행 시각 미확인 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#comparison-3-1">대화원문보기</a></th></tr></thead>
@@ -130,8 +129,8 @@
 | **과업 정의** | **개발 순서 길잡이 · 첫 계획서부터 PNG 저장 범위 확인까지**<br>영화 기획서에서 필수 기능을 골라 개발 순서를 정하고, 각 단계의 완료 기준을 원문에 근거해 작성하도록 했다. |
 | **내용** | 개발 순서 길잡이의 역할과 답변 규칙을 정하고 예시 없이 첫 계획서를 요청했다. 책갈피를 필수 기능으로 고치고, 책갈피별 독립 배치와 현재·전체 페이지 저장을 완료 기준에 추가했다. 첫 작업을 찾기 쉽게 재구성한 뒤 포스터 예외, 저장 기준, 책갈피 개수, PNG 저장 범위를 기획서와 대조했다. |
 | **결과** | 첫 계획서와 수정본 v2·v3를 받았다. 책갈피를 필수 단계에 넣었고, 마지막에는 S등급의 ‘기생충’과 위쪽 목록의 ‘조커’ 중 어떤 영화가 PNG에 포함되는지 확인했다. |
-| **프롬프트 구분** | 시스템 프롬프트 v1 · 페르소나<br>유저 프롬프트 v1 · 텍스트 생성<br>유저 프롬프트(후속 요청, 버전 미기재) · 텍스트 생성 |
-| **시각** | 2026년 11월 20일 18:47 · 대화창 기준 |
+| **프롬프트 구분** | 시스템 프롬프트 v1 · 페르소나<br>유저 프롬프트 v1 · 텍스트 생성<br>유저 프롬프트(후속 요청) · 텍스트 생성 |
+| **시각** | 2026년 11월 20일 18:47 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-03">대화원문보기</a> · <a href="https://share.gemini.google/8wFcCMp5pO4q">대화링크</a></th></tr></thead>
@@ -441,8 +440,8 @@
 | **과업 정의** | **환각 검증 질문 선정과 실행**<br>영화 기획서로 개발 단계를 시각화하고, 답변이 기획서와 일치하는지 확인할 질문 다섯 가지를 정해 실행했다. |
 | **내용** | 검증 질문 다섯 가지를 먼저 제안해 달라고 한 뒤, API 키 처리, 책갈피 관리, 불러오기 안전장치, 이미지 저장 범위, 초기 영화와 포스터 표시를 기획서에 근거해 답하도록 했다. |
 | **결과** | 개발 계획서와 다섯 질문을 받았고, 각 질문에 대한 답변을 기획서의 조건과 대조할 수 있게 기록했다. |
-| **프롬프트 구분** | 유저 프롬프트(버전 미기재) · 텍스트 생성 |
-| **시각** | 2026년 11월 20일 20:05 · 대화창 기준 |
+| **프롬프트 구분** | 유저 프롬프트 · 텍스트 생성 |
+| **시각** | 2026년 11월 20일 20:05 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#validation-1">대화원문보기</a></th></tr></thead>
@@ -588,8 +587,8 @@ JSON 파일로 저장하거나 HTML 코드를 배포할 때 API 키는 어떻게
 | **과업 정의** | **페르소나 적용부터 이미지 말투·오른쪽 잘림 확인까지**<br>영화 기획서를 장보기 예시처럼 한 장으로 정리하고, 이미지의 말투와 오른쪽에서 잘린 완료 기준을 고쳐 달라고 했다. |
 | **내용** | 개발 순서 길잡이의 역할을 정하고, 책갈피는 상단 탭으로, API 키 입력 전에는 기본 카드로 표시하도록 확인했다. 기획서의 완료 기준을 단계에 연결하고 장보기 예시처럼 가로 로드맵과 실행표를 넣어 달라고 했다. 이어서 쉬운 존댓말을 쓰고 오른쪽에서 잘린 완료 기준을 고쳐 달라고 했다. |
 | **결과** | 단계별 계획표와 인포그래픽을 받았다. 말투 수정 요청에는 용어 풀이와 요약이 돌아왔고, 잘림 수정 후 받은 이미지 두 장에도 오타가 남아 수정을 중단했다. |
-| **프롬프트 구분** | 시스템 프롬프트(버전 미기재) · 페르소나<br>유저 프롬프트(버전 미기재) · 텍스트 생성, 페르소나 |
-| **시각** | 2026년 11월 21일 00:01 · 대화창 기준 |
+| **프롬프트 구분** | 시스템 프롬프트 · 페르소나<br>유저 프롬프트 · 텍스트 생성, 페르소나 |
+| **시각** | 2026년 11월 21일 00:01 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-23">대화원문보기</a></th></tr></thead>
@@ -752,7 +751,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 말투를 차분하고 친절한 존댓말을 쓰고 쉬운 단어로 짧게 말하고, 낯선 개발 용어는 풀어서 설명해줘 .
 
 </td></tr>
-<tr id="dialogue-32"><th scope="row" align="left" valign="top">🤖 AI: [<strong>⚠️ 문맥 끊김</strong> : 계획서 문구를 쉬운 존댓말로 고쳐 달라고 했는데, 용어 풀이와 요약이 돌아왔어요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>⚠️ 문맥 끊김</strong> : 계획서 문구를 쉬운 존댓말로 고쳐 달라고 했는데, 용어 풀이와 요약이 돌아왔어요.]</td></tr>
+<tr id="dialogue-32"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 네, 알겠습니다. 차분하고 친절한 존댓말로 쉬운 단어만 골라 짧게 말씀드릴게요. 낯선 개발 용어도 옆에서 쉽게 풀어서 설명해 드릴게요.
 
@@ -778,7 +778,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 이미지 오른쪽에서 완료 기준 문장이 잘려 끝까지 읽을 수 없어
 
 </td></tr>
-<tr id="dialogue-34"><th scope="row" align="left" valign="top">🤖 AI: [<strong>🛑 환각</strong> : AI는 끝까지 읽을 수 있다고 했지만, 사용자가 확인한 수정 이미지 두 장에는 오타와 깨진 글자가 남아 있었어요.]<br>[<strong>✏️ 오타</strong> : 사용자가 수정 이미지 두 장에서 한글 오타와 깨진 글자를 확인했어요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>🛑 환각</strong> : AI는 끝까지 읽을 수 있다고 했지만, 사용자가 확인한 수정 이미지 두 장에는 오타와 깨진 글자가 남아 있었어요.]<br>[<strong>✏️ 오타</strong> : 사용자가 수정 이미지 두 장에서 한글 오타와 깨진 글자를 확인했어요.]</td></tr>
+<tr id="dialogue-34"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 죄송합니다. 제가 글자 길이를 계산하지 못해서 중요한 완료 기준 문장이 잘리게 만들었군요.
 
@@ -811,8 +812,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **과업 정의** | **한 장짜리 이미지 요청과 3단계 오타 재확인**<br>영화 기획서를 한 장짜리 로드맵과 단계별 카드로 만들고, 이미지에 적힌 표현과 3단계 오타를 확인하도록 했다. |
 | **내용** | 등급 분류·책갈피별 관리·저장을 포함하고 완성 기준 1~10번을 직접 해 볼 동작으로 풀어 달라고 했다. 4열 표의 불필요한 열을 짚고, 단계별 카드 배치와 3단계 문구를 지정했다. 제목과 중복 문구를 고치고 장보기 예시를 적용한 뒤 ‘새로고침’의 원문 근거와 3단계 오타를 재확인했다. |
 | **결과** | 수정 과정에서 인포그래픽 여섯 장을 받았다. 첫 이미지에는 요청한 열이 하나 더 생겼고, 마지막 이미지의 3단계 오타는 두 차례 확인에도 AI가 놓쳤다. |
-| **프롬프트 구분** | 시스템 프롬프트(버전 미기재) · 페르소나<br>유저 프롬프트(버전 미기재) · 텍스트 생성 |
-| **시각** | 2026년 11월 21일 00:10 · 대화창 기준 |
+| **프롬프트 구분** | 시스템 프롬프트 · 페르소나<br>유저 프롬프트 · 텍스트 생성 |
+| **시각** | 2026년 11월 21일 00:10 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-37">대화원문보기</a> · <a href="https://share.gemini.google/J2KuCirhz8tb">대화링크</a> · <a href="../자료/code_artifact%20%285%29.md">code_artifact (5).md</a></th></tr></thead>
@@ -912,7 +913,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
   지금 정리한 개발 계획을 한 장짜리 인포그래픽 이미지로 만들어줘 .맨 위에는 가장 중요한 기능과 가장 먼저 만들 기능을 이유와 함께 한 문장씩 써줘. 그 아래에는 1~5단계를 아이콘과 화살표로 가로로 연결하고, 바로 밑에 같은 순서로 ‘단계와 제목 | 할 일 | 결과물 | ✅ 완료 기준’ 표를 넣어줘. 완료 기준은 내가 무엇을 해 보고 어떤 결과를 확인하면 되는지 짧게 써줘. 같은 내용은 한 번만 보여줘. 
 
 </td></tr>
-<tr id="dialogue-44"><th scope="row" align="left" valign="top">🤖 AI: [<strong>⚠️ 문맥 끊김</strong> : 사용자가 표를 4열로 지정했는데, 다음 이미지에 열이 추가됐어요.]<br><strong>[🛑 환각</strong> : 이미지에는 “중복된 카드가 목록에 들어감”이라고 적혔어요. 기획서에서는 같은 영화를 다시 추가해도 카드 수가 늘지 않아요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>⚠️ 문맥 끊김</strong> : 사용자가 표를 4열로 지정했는데, 다음 이미지에 열이 추가됐어요.]<br><strong>[🛑 환각</strong> : 이미지에는 “중복된 카드가 목록에 들어감”이라고 적혔어요. 기획서에서는 같은 영화를 다시 추가해도 카드 수가 늘지 않아요.]</td></tr>
+<tr id="dialogue-44"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 
 
@@ -1007,7 +1009,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 <a href="assets/grocery-checklist-example.png"><img src="assets/grocery-checklist-example.png" width="220" alt="첨부 이미지 · 장보기 체크리스트 개발 계획서"></a><br><a href="assets/grocery-checklist-example.png">첨부 이미지 · 장보기 체크리스트 개발 계획서</a>
 
 </td></tr>
-<tr id="dialogue-54"><th scope="row" align="left" valign="top">🤖 AI: [<strong>✏️ 오타</strong> : 3단계 완료 기준에서 ‘누르면 하면 화면에서’는 ‘누르면 화면에서’로 고쳐야 해요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>✏️ 오타</strong> : 3단계 완료 기준에서 ‘누르면 하면 화면에서’는 ‘누르면 화면에서’로 고쳐야 해요.]</td></tr>
+<tr id="dialogue-54"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 
 가족같이 친근하고 직관적인 스타일의 예시 형식을 참고해서, 영화 티어리스트에 꼭 맞는 1장짜리 개발 계획서를 제작해 보았어요!
@@ -1049,7 +1052,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 이번에는 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
 </td></tr>
-<tr id="dialogue-58"><th scope="row" align="left" valign="top">🤖 AI: [<strong>🛑 환각</strong> : 사용자가 확인한 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었는데, AI는 ‘하면’을 빼고 인용했어요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>🛑 환각</strong> : 사용자가 확인한 이미지에는 ‘누르면 하면 화면에서’라고 적혀 있었는데, AI는 ‘하면’을 빼고 인용했어요.]</td></tr>
+<tr id="dialogue-58"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 
 방금 생성된 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 살펴보았어요.
@@ -1069,7 +1073,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 이미지의 3단계 ‘드래그 및 등급 조작’을 확인해줘. ‘할 일’과 ‘완료 기준’에서 오타가 보이면, 어느 줄인지 짚고 이미지에 적힌 표현 → 고친 표현 순서로 써줘. 정확히 읽히지 않는 글자는 추측하지 말고 알려줘
 
 </td></tr>
-<tr id="dialogue-60"><th scope="row" align="left" valign="top">🤖 AI: [<strong>🛑 환각</strong> : 24턴 재확인에서도 22턴과 똑같이 ‘하면’을 빼고 이미지 원문이라고 답했어요. 시스템 설계 문서의 판정은 Fail이에요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>🛑 환각</strong> : 24턴 재확인에서도 22턴과 똑같이 ‘하면’을 빼고 이미지 원문이라고 답했어요. 시스템 설계 문서의 판정은 Fail이에요.]</td></tr>
+<tr id="dialogue-60"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 
 이미지(3단계 ‘드래그 및 등급 조작’)의 ‘할 일’과 ‘완료 기준’을 다시 꼼꼼히 살펴보았어요.
@@ -1098,8 +1103,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **과업 정의** | **장보기 예시 적용과 이미지 수정 요청**<br>장보기 예시를 바탕으로 영화 기획서를 한 장짜리 인포그래픽으로 만들고, 제목 오타와 빠진 요구사항을 고쳐 달라고 했다. |
 | **내용** | 첫 메시지에 영화 기획서와 장보기 예시 이미지를 첨부하고, 예시 세 건을 담은 Few-shot 지침을 함께 입력했다. 생성된 이미지의 제목 오타와 기획서에서 빠진 기능을 확인한 뒤, 책갈피는 독립 단계로 두고 저장하기와 불러오기는 한 단계로 합쳐 달라고 했다. |
 | **결과** | 첫 5단계 인포그래픽에서 제목 오타와 책갈피·불러오기 조건 누락을 확인했다. 수정본에는 4단계 ‘책갈피 관리’와 5단계 ‘저장하기 & 불러오기’가 들어갔다. 이미지 제목에는 ‘회’가 남아 있다. 같은 요청을 다시 보내자 이미지 생성 한도에 도달해 AI가 마지막 답변으로 6단계 개발 계획서를 텍스트로 보냈다. |
-| **프롬프트 구분** | 시스템 프롬프트 v2 · 텍스트 생성<br>유저 프롬프트(후속 요청, 버전 미기재) · 텍스트 생성 |
-| **시각** | 2026년 11월 21일 01:46 · 대화창 기준 |
+| **프롬프트 구분** | 시스템 프롬프트 v2 · 텍스트 생성<br>유저 프롬프트(후속 요청) · 텍스트 생성 |
+| **시각** | 2026년 11월 21일 01:46 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-63">대화원문보기</a> · <a href="../자료/code_artifact.md">code_artifact.md</a> · <a href="../자료/code_artifact%20%284%29.md">code_artifact (4).md</a></th></tr></thead>
@@ -1168,7 +1173,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 <a href="assets/grocery-checklist-example.png"><img src="assets/grocery-checklist-example.png" width="220" alt="첨부 이미지 · 장보기 체크리스트 개발 계획서"></a><br><a href="assets/grocery-checklist-example.png">첨부 이미지 · 장보기 체크리스트 개발 계획서</a>
 
 </td></tr>
-<tr id="dialogue-64"><th scope="row" align="left" valign="top">🤖 AI: [<strong>✏️ 오타</strong> : 이미지 제목의 ‘영화 회 티어리스트 개발 계획서’에서 ‘회’를 빼야 해요.]</th><td>
+<tr><th scope="row" align="left">검토</th><td>[<strong>✏️ 오타</strong> : 이미지 제목의 ‘영화 회 티어리스트 개발 계획서’에서 ‘회’를 빼야 해요.]</td></tr>
+<tr id="dialogue-64"><th scope="row" align="left" valign="top">🤖 AI:</th><td>
 
 
 *(생성된 이미지: `watermarked_img_4549971170223832447.png`)*
@@ -1335,8 +1341,8 @@ Maintains precise typography, alignment, and grid system as visualised in <IMAGE
 | **과업 정의** | **Few-shot 개발 계획서 파일 요청**<br>예시의 형식에 맞춰 영화 기획서의 개발 순서와 완료 기준을 정리하고, 결과를 마크다운 파일로 만들어 달라고 했다. |
 | **내용** | 개발 순서 길잡이의 역할, 모호할 때 되묻는 규칙, 예시 세 건을 제시했다. 영화 기획서를 첨부한 뒤 결과물을 Few-shot개발계획서.md로 만들어 달라고 했다. |
 | **결과** | 등급 분류와 배치 저장을 중심으로 단계별 할 일과 완료 기준을 정리한 계획서 파일을 받았다. |
-| **프롬프트 구분** | 시스템 프롬프트(버전 미기재) · 페르소나<br>유저 프롬프트(버전 미기재) · 텍스트 생성 |
-| **시각** | 2026년 11월 21일 13:55 · 대화창 기준 |
+| **프롬프트 구분** | 시스템 프롬프트 · 페르소나<br>유저 프롬프트 · 텍스트 생성 |
+| **시각** | 2026년 11월 21일 13:55 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-70">대화원문보기</a> · <a href="../자료/code_artifact%20%283%29.md">code_artifact (3).md</a></th></tr></thead>
@@ -1493,8 +1499,8 @@ TMDB API 키 설정, JSON 파일 저장/불러오기, PNG 이미지 저장, 여�
 | **과업 정의** | **인포그래픽 생성 후 환각 검증 질문 5개 실행**<br>영화 기획서로 인포그래픽을 만든 뒤 질문 다섯 가지를 실행해 답변의 근거를 확인했다. |
 | **내용** | 첫 요청에 예시 세 건을 담은 Few-shot 지침을 넣어 영화 기획서를 인포그래픽으로 만들도록 했다. 이어서 API 키 노출, 책갈피 관리, 불러오기 안전장치, 이미지 저장과 포스터 오류, 초기 영화 10편의 배치와 포스터 표시를 차례로 물었다. |
 | **결과** | 인포그래픽 생성 후 다섯 질문에 대해 각각 답변을 받았다. |
-| **프롬프트 구분** | 시스템 프롬프트 v2 · 텍스트 생성<br>유저 프롬프트(검증 질문, 버전 미기재) · 텍스트 생성 |
-| **시각** | 2026년 11월 21일 20:19 · 기록 생성 시각, 개별 실행 시각 미기재 |
+| **프롬프트 구분** | 시스템 프롬프트 v2 · 텍스트 생성<br>유저 프롬프트(검증 질문) · 텍스트 생성 |
+| **기록 생성 시각** | 2026년 11월 21일 20:19 |
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#infographic-check-1">대화원문보기</a></th></tr></thead>
