@@ -735,13 +735,15 @@ JSON 파일로 저장하거나 HTML 코드를 배포할 때 API 키는 어떻게
 
 [생성 이미지: 영화 티어리스트 개발 계획서 인포그래픽 (watermarked_img_6050430988967584222.png)]
 
+<a href="assets/dialogue-34-result-1.webp"><img src="assets/dialogue-34-result-1.webp" width="220" alt="영화 티어리스트 개발계획서 수정 결과 1"></a>
+
 죄송합니다. 이전 이미지에서 글자가 잘려나간 것을 제대로 확인하지 못했었네요.
 
 지적해 주신 부분을 바탕으로 전체 표의 너비를 다시 조정하여, 오른쪽의 **완료 기준** 문장이 한 줄에 모두 표시되도록 수정했습니다. 이제 모든 내용을 끝까지 읽어보실 수 있을 거예요.
 
 [생성 이미지: 영화 티어리스트 개발 계획서 인포그래픽 (watermarked_img_17382863926931422304.png)]
 
-<a href="assets/conversation-05-7.png"><img src="assets/conversation-05-7.png" width="220" alt="수정 결과 이미지 두 장이 남은 캡처"></a><br><a href="assets/conversation-05-7.png">수정 결과 이미지 두 장이 남은 캡처</a>
+<a href="assets/dialogue-34-result-2.webp"><img src="assets/dialogue-34-result-2.webp" width="220" alt="영화 티어리스트 개발계획서 수정 결과 2"></a>
 
 <a href="unresolved.md#과업-2--영화-티어리스트-계획서의-말투와-잘린-문장-수정">미해결 과업의 확인 기록</a>
 
