@@ -201,9 +201,9 @@
 
 오타를 찾을 기회를 두번이나주면서 재질문했는데 없다고 답해서 더이상 진행할수없었어
 
-### 💬 대화 원문 · 작업기록 8
+### 💬 대화 원문 · 작업기록 7
 
-11월 21일 00:10 (한국 시간) · [실행로그에서 보기](run-log.md#record-8)
+11월 21일 00:10 (한국 시간) · [실행로그에서 보기](run-log.md#record-7)
 
 <table>
 <thead><tr><th>화자</th><th align="left">대화 원문<br><a href="#dialogue-37">대화원문보기</a> · <a href="https://share.gemini.google/J2KuCirhz8tb">대화링크</a> · <a href="../자료/code_artifact%20%285%29.md">code_artifact (5).md</a></th></tr></thead>

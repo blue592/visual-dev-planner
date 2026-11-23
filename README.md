@@ -12,8 +12,8 @@
 |---|---|---|---|
 | 1 | [docs/model-comparison.md](docs/model-comparison.md) | 같은 과업을 수행한 세 모델의 결과를 비교하고 최종 모델을 고른 이유를 설명해요. | 작업기록 1~3번에서 Gemini·GPT·Claude에 같은 기획서를 주었어요. 모델별 응답과 기준별 점수, Gemini를 선택한 이유를 담았어요. |
 | 2 | [docs/system-design.md](docs/system-design.md) | 개발 순서 길잡이에 어떤 역할을 주고, 어떤 지시와 예시를 추가했는지 정리해요. | [2절 페르소나](docs/system-design.md#persona)와 [3절 입력 템플릿](docs/system-design.md#template)에서 역할·말투와 기획서 입력 양식을 확인할 수 있어요.<br>[4절 프롬프트 개선 이력](docs/system-design.md#history)은 유저 프롬프트, 시스템 프롬프트, 입력 템플릿의 변경 내용과 실제 대화를 보여 줘요.<br>[5절 Few-shot](docs/system-design.md#few)에서는 예시 없이 실행한 결과와 예시를 준 결과를 비교하고, 모호한 요구사항을 먼저 질문하도록 한 지시를 확인할 수 있어요.<br>[6절 환각 검증](docs/system-design.md#check)은 다섯 질문에 대한 답변을 기획서와 대조한 판정과 근거, 별도로 발견한 오류를 담고 있어요. |
-| 3 | [docs/run-log.md](docs/run-log.md) | 세 모델의 비교 실행부터 Gemini의 계획서 수정과 검증까지 실제 대화와 결과물을 기록해요. | [1~3번](docs/run-log.md#record-1)에서 같은 기획서로 Gemini·GPT·Claude를 비교했어요. [4번](docs/run-log.md#record-4)에서 개발 순서와 PNG 저장 범위를 확인하고, [5번](docs/run-log.md#record-5)에서 환각 검증 질문 다섯 가지를 정해 실행했어요.<br>[7번](docs/run-log.md#record-7)에서는 말투와 잘린 문장을, [8번](docs/run-log.md#record-8)에서는 4열 표와 중복 카드 설명 오류, 3단계 오타를 확인했어요. [9번](docs/run-log.md#record-9)은 장보기 예시를 적용한 이미지 수정 요청, [10번](docs/run-log.md#record-10)은 Few-shot 개발 계획서 파일 요청이에요.<br>[11번](docs/run-log.md#record-11)에서는 인포그래픽을 생성한 뒤 다섯 질문을 다시 실행했어요. |
-| 4 | [docs/unresolved.md](docs/unresolved.md) | 해결하지 못한 과업, 시도한 방법, 어디에서 막혔는지를 기록해요. | [작업기록 7번](docs/run-log.md#record-7)에서는 계획서의 말투와 잘린 문장을 고쳐 달라고 했어요. [작업기록 8번](docs/run-log.md#record-8)에서는 3단계 완료 기준을 두 번 확인해 달라고 했지만 Gemini가 오타를 찾지 못했어요. 두 과업에서 작업을 중단한 이유와 대화 원문을 담았어요. |
+| 3 | [docs/run-log.md](docs/run-log.md) | 세 모델의 비교 실행부터 Gemini의 계획서 수정과 검증까지 실제 대화와 결과물을 기록해요. | [1~3번](docs/run-log.md#record-1)에서 같은 기획서로 Gemini·GPT·Claude를 비교했어요. [4번](docs/run-log.md#record-4)에서 개발 순서와 PNG 저장 범위를 확인하고, [5번](docs/run-log.md#record-5)에서 환각 검증 질문 다섯 가지를 정해 실행했어요.<br>[6번](docs/run-log.md#record-6)에서는 말투와 잘린 문장을, [7번](docs/run-log.md#record-7)에서는 4열 표와 중복 카드 설명 오류, 3단계 오타를 확인했어요. [8번](docs/run-log.md#record-8)은 장보기 예시를 적용한 이미지 수정 요청, [9번](docs/run-log.md#record-9)은 Few-shot 개발 계획서 파일 요청이에요.<br>[10번](docs/run-log.md#record-10)에서는 인포그래픽을 생성한 뒤 다섯 질문을 다시 실행했어요. |
+| 4 | [docs/unresolved.md](docs/unresolved.md) | 해결하지 못한 과업, 시도한 방법, 어디에서 막혔는지를 기록해요. | [작업기록 6번](docs/run-log.md#record-6)에서는 계획서의 말투와 잘린 문장을 고쳐 달라고 했어요. [작업기록 7번](docs/run-log.md#record-7)에서는 3단계 완료 기준을 두 번 확인해 달라고 했지만 Gemini가 오타를 찾지 못했어요. 두 과업에서 작업을 중단한 이유와 대화 원문을 담았어요. |
 
 ## 보너스 과제
 
@@ -45,8 +45,8 @@
 
 | 실행 | 예시를 넣은 위치와 실제 결과 |
 |---|---|
-| 작업기록 9 | 장보기 이미지를 ‘레이아웃 예시 이미지’ 칸에 넣었어요. 위에 가로 로드맵, 아래에 단계별 카드가 나왔어요. 제목에 ‘회’가 한 글자 더 들어갔고, 책갈피별 배치와 현재·전체 저장 선택이 빠졌어요. [Few-shot 인포그래픽](docs/assets/movie-tierlist-v2.webp) · [작업기록 9](docs/run-log.md#record-9) |
-| 작업기록 11 | 장보기 이미지를 ‘내가 추가로 확인해 준 내용’ 칸에 넣었어요. 영화 티어리스트 계획서 이미지 한 장을 받은 뒤 다섯 질문으로 답변을 기획서와 대조했어요. [이미지와 검증 대화](docs/run-log.md#record-11) |
+| 작업기록 8 | 장보기 이미지를 ‘레이아웃 예시 이미지’ 칸에 넣었어요. 위에 가로 로드맵, 아래에 단계별 카드가 나왔어요. 제목에 ‘회’가 한 글자 더 들어갔고, 책갈피별 배치와 현재·전체 저장 선택이 빠졌어요. [Few-shot 인포그래픽](docs/assets/movie-tierlist-v2.webp) · [작업기록 8](docs/run-log.md#record-8) |
+| 작업기록 10 | 장보기 이미지를 ‘내가 추가로 확인해 준 내용’ 칸에 넣었어요. 영화 티어리스트 계획서 이미지 한 장을 받은 뒤 다섯 질문으로 답변을 기획서와 대조했어요. [이미지와 검증 대화](docs/run-log.md#record-10) |
 
 ## 모델 비교 자료
 
