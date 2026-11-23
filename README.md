@@ -15,6 +15,21 @@
 | 3 | [docs/run-log.md](docs/run-log.md) | 세 모델의 비교 실행부터 Gemini의 계획서 수정과 검증까지 실제 대화와 결과물을 기록해요. | [1~3번](docs/run-log.md#record-1)에서 같은 기획서로 Gemini·GPT·Claude를 비교했어요. [4번](docs/run-log.md#record-4)에서 개발 순서와 PNG 저장 범위를 확인하고, [5번 · 환각 검증 전략과 질문 선정](docs/run-log.md#record-5)에서는 기획서와 대조할 질문 다섯 가지를 미리 정한 뒤 한 번에 물었어요.<br>[6번](docs/run-log.md#record-6)에서는 말투와 잘린 문장을, [7번](docs/run-log.md#record-7)에서는 4열 표와 중복 카드 설명 오류, 3단계 오타를 확인했어요. [8번](docs/run-log.md#record-8)에서는 장보기 예시를 적용한 이미지를 수정했어요. [9번](docs/run-log.md#record-9)에서는 영화 추가·목록 관리 → 등급 배치·변경·삭제 → 배치 저장 순서로 정리한 [3단계 Few-shot 개발 계획서](자료/Few-shot개발계획서.md)를 받았어요.<br>[10번](docs/run-log.md#record-10)에서는 인포그래픽을 생성한 뒤 다섯 질문을 다시 실행했어요. |
 | 4 | [docs/unresolved.md](docs/unresolved.md) | 해결하지 못한 과업, 시도한 방법, 어디에서 막혔는지를 기록해요. | [작업기록 6번](docs/run-log.md#record-6)에서는 계획서의 말투와 잘린 문장을 고쳐 달라고 했어요. [작업기록 7번](docs/run-log.md#record-7)에서는 3단계 완료 기준을 두 번 확인해 달라고 했지만 Gemini가 오타를 찾지 못했어요. 두 과업에서 작업을 중단한 이유와 대화 원문을 담았어요. |
 
+## 핵심 내용 바로가기
+
+| 확인할 내용 | 문서 · 세부 항목 |
+|---|---|
+| 과업 정의 · 타겟 사용자 · 입력과 출력 규격 | [시스템 설계: 과업 정의](docs/system-design.md#task) |
+| 모델 3종 실행 정보와 무료 여부 | [모델 비교: 실행 정보](docs/model-comparison.md#comparison-execution) |
+| 모델별 기준·점수·근거와 최종 선정 | [점수와 근거](docs/model-comparison.md#comparison-scores) · [선정 이유](docs/model-comparison.md#comparison-decision) |
+| 페르소나와 시스템·유저 프롬프트 | [페르소나](docs/system-design.md#persona) · [프롬프트 개선 이력](docs/system-design.md#history) |
+| 복사 가능한 입력 템플릿 | [입력 템플릿 전문](docs/system-design.md#template) |
+| Few-shot 예시 3건과 Zero-shot 비교 | [Few-shot 실행과 비교](docs/system-design.md#few) |
+| 사전 검증 전략 · A/B 판정 기준 · 질문 5건 | [환각 검증](docs/system-design.md#check) · [질문별 판정](docs/system-design.md#10-환각-검증-질문과-판정) |
+| 실제 환각·문맥 끊김 위치와 판단 근거 | [사례별 판단 이유](docs/system-design.md#hallucination-case-index) · [실행 로그 표시](docs/run-log.md#runlog-case-index) |
+| 작업기록별 실제 대화 원문 | [작업기록 1~10 목차](docs/run-log.md#runlog-index) |
+| 미해결 과업 2건 · 시도·막힌 이유 | [미해결 과업 목차](docs/unresolved.md#unresolved-index) |
+
 ## 보너스 과제
 
 | 과제 | 한 줄 소개 | 관련 파일 |
