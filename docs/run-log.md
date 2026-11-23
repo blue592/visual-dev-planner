@@ -752,7 +752,7 @@ JSON 파일로 저장하거나 HTML 코드를 배포할 때 API 키는 어떻게
 
 <a href="assets/dialogue-34-result-2.webp"><img src="assets/dialogue-34-result-2.webp" width="220" alt="영화 티어리스트 개발계획서 수정 결과 2"></a>
 
-<a href="unresolved.md#과업-2--영화-티어리스트-계획서의-말투와-잘린-문장-수정">미해결 과업의 확인 기록</a>
+<a href="unresolved.md#unresolved-task-1">미해결 과업 1의 확인 기록</a>
 
 </td></tr>
 
